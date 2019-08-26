@@ -1,0 +1,2386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EE6C08C7C6856EFC35EA82863B47F7 /* CalloutViewPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD302251D8187F9EF9822F8D97E02FEC /* CalloutViewPlus.swift */; };
+		0741320F4029C077E6C87F24FBBE1921 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF6C44BF515921050C5EEF12D046FEE /* CSV.swift */; };
+		090E841F50675153B289C4D8501B8300 /* CFAlertNotificationTransitionGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1038382CE8AB22FD8320476A2BE65D /* CFAlertNotificationTransitionGestureRecognizer.swift */; };
+		0DC716D6A630FAC820D9EA7E6F36EDF4 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB4103EAEEE26D12F7CD60A4A2610B /* Placeholder.swift */; };
+		10E4F317355B2F7ED81DAC14C53FF029 /* CFAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E52111EE50029C334FDC0A98AA281F5 /* CFAlertAction.swift */; };
+		10EE01067F8E76BC798A403F28E0E5CC /* AnnotationPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3754AB1980AA696CD6F17C3E36B06B /* AnnotationPlus.swift */; };
+		11850D83EC600C509D8F865AF9C491DA /* Pods-TreeMapBCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F79099FFDCBF11004612377698DD5B81 /* Pods-TreeMapBCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		129FE2507D78F9AE9F9C8697FAC93DDE /* Pods-TreeMapBCUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9255EB5CF99BEAEE3B407EA21893A055 /* Pods-TreeMapBCUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1395C5DA3B7AA6A17E28CF4A8E1B4633 /* CFAlertViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 391B05A674A032479967C71FD5AC2FF5 /* CFAlertViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		154DA87F9CFE7544E755F5D133AD4E2E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA32BFD9BCA4900C2368A438F9A71C4 /* Parser.swift */; };
+		15E9DBD72E63020472A188F090720281 /* PMAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B76F532686300A84AC4058DF3BE1BC6 /* PMAlertController-dummy.m */; };
+		17949EA5A648628698D3045C32125D9A /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03348E297B796054CA625BBDE72650EE /* FormatIndicatedCacheSerializer.swift */; };
+		18E8699E19BF79678DE08904FCB53F2B /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FF067FAF69BBC242C64A497BF003B /* String+Lines.swift */; };
+		1D182C2DB0E3A2FC683C635DA33254CD /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1CF17DA6154AFBAB80A7045AF55F1 /* UIButton+Kingfisher.swift */; };
+		1D4A841D5FCECC98EBC70A0F413BE76F /* DefaultCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F515C93ED103B433B715DA8B25EB3943 /* DefaultCalloutView.swift */; };
+		1DFF856ED6C75C3A913D044C7FC6E26F /* MapViewPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DEB8117A2DF95EFE17A50AA1DA4731 /* MapViewPlus.swift */; };
+		218FC76735C2CD3E84F920CE33EDD6FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		27B427F4F2C7B3472B55F06404188D82 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B225E447270E0867424A75BCA62C7CC /* ImagePrefetcher.swift */; };
+		28FDC9276EEB4D7EF81271D302CD1D60 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B7830B992A95F9391E4C78DDDDD0 /* Box.swift */; };
+		31CE630E5C5F4243C759C329C3D04B62 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0AE36CD8C7F5F46D22D41BAAA72BE /* SideMenuTransition.swift */; };
+		33E4D49372B55E745B36382B64130122 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA5C69558B63B6B4E4DE6CF4823BBD /* AnimatedImageView.swift */; };
+		39FC1A51FF31905080FDA44316A2E3FA /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DF4089F35F59BE7B50C1BF647D016D /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A224677A8EC5ADAF2555D323E423721 /* Pods-TreeMapBCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C4D033C3295CBAED2D7EC675F2DD7E /* Pods-TreeMapBCTests-dummy.m */; };
+		3FECEAC084882D3EB3AA06008499F41A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		4015497700167E2F7A78FB0FA8728D83 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B12F6B42BC3113FC5687A34B17329D /* ImageView+Kingfisher.swift */; };
+		40B92FDF71624FC72B5AAF014FF827C5 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E95DC18757CE38E6E2168C1D5B0862E /* String+MD5.swift */; };
+		41473BF5990BA28C17CEBC5940668548 /* CFAlertTitleSubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6A6EFC057E06FC1E1142957483467 /* CFAlertTitleSubtitleTableViewCell.swift */; };
+		43F271869112DCCB01E8A89C493F1530 /* CFAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0E06092D22BE19032B7F9C0AB4EE58 /* CFAlertViewController.xib */; };
+		443C09C19397A4B5599EA6AFC359678D /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763DE51D34FE02A1DE838391272018EC /* ImageModifier.swift */; };
+		461D4B815655E66E255FBEFFF65FBFE0 /* CFAlertNotificationInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20994A38638F6FCBECF54E2CF73F6584 /* CFAlertNotificationInteractiveTransition.swift */; };
+		52EBEB9C51467A8F3A82D067CE59B642 /* PMAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = CC6E16875E21D862C10F891C415E631A /* PMAlertController.xib */; };
+		53164A2DDB944329FD8720F2F0D45228 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E03658E98EB0DF66109DC4BEEF622F4 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5548C91B7B13B05D91EE5DAFFB3E8B14 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68477F83CCB7D870101D0AAF19D1200B /* ImageTransition.swift */; };
+		55B73B58EE9E36E4C860A2135A9796A9 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0229A7681C2689693DCE823BAE2C1C62 /* Kingfisher-dummy.m */; };
+		57373DBECB85E0F33BF755AC1E9B55B6 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6151507D2470DF3CD0AADDDB89C9E3C /* Kingfisher.framework */; };
+		59A62BE2B9F4EE2DB82C1A5705403F51 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1638D796EC2958F2D4E980F7FDAD71B7 /* ImageProcessor.swift */; };
+		5CFFA4088CF87E34D428A868C68C9B2A /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D08649384E673FB73CE750D131E27F /* UISideMenuNavigationController.swift */; };
+		5D7F9243C47FDAE33C85C4E38E3420F2 /* EnumeratedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D74217CBF0FABF8AF2AE0E5BB57A8A /* EnumeratedView.swift */; };
+		5EABE357108BB0AC56B6C7D0AFCC4532 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2732FC6521206FD3C8A930FAAF3B942 /* Indicator.swift */; };
+		605312F2D1B8710E4FBCD9D4F6FF998D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		626CCD3B19CAB7090293FF68A57E610A /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FCA1861C356AEF3D47F5ABE3D22AC /* KingfisherOptionsInfo.swift */; };
+		63F676BD162BC71EF4C5AC25CEED5FE7 /* CFAlertBaseInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EB72D7A597F27670880E14D8824D4 /* CFAlertBaseInteractiveTransition.swift */; };
+		6729B1041A4D0849DFF33A6C81FD9310 /* MapViewPlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 613DDC9439CF871C4C3967D569CB583A /* MapViewPlus.bundle */; };
+		70ECB3E5FED2F2D4F6DEFE366519C8AE /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A9FBA106507CDC8EBB7F13D5A95DE1 /* Resource.swift */; };
+		71F8F4398D71B5EAD51223D8D6CDC333 /* PMAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E6817A379EE665E10A4E209065DE2E /* PMAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7209C32379ACDCF3937E1C77149E1E63 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608DEA2CB2DA8D76A77570FCBDF389C8 /* UITableViewVibrantCell.swift */; };
+		735674B48DD22F00E2BBBB9291115489 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3070D9EDC0AE0C0E580315C42A666C60 /* SideMenu-dummy.m */; };
+		7389F893E9B1ECD81A61DFC4CE5798E6 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF87DCDBDC14EF4EF7560EE8542A18 /* SideMenuManager.swift */; };
+		755E6E11284F28E57A17A1BC9B3FCC35 /* MapViewPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D4EE115E7D1799D66B5C0629E8B609 /* MapViewPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF5FBB6166CA374197208D252DB013F /* DefaultCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 957DDDE1BC3C1CFEF18750C6BA9C6F50 /* DefaultCalloutView.xib */; };
+		823ECDAF70D96AD44791756F2B13B7C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EF5397E4BAB399B33DE9AFC9497743 /* UIKit.framework */; };
+		837565F200CD03AD302FB1FEADDBD6DB /* ParsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F56C69B44F461E15B509C1EE89DEA1 /* ParsingState.swift */; };
+		841D7E6DE79CF955672886E7B3F579A5 /* CFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A498EC8D2DEF57D21BDC38D9ECF5998 /* CFAlertViewController.swift */; };
+		84E50EC1F9720A0077EC28228031EFDC /* CalloutAndAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FE57DA06241777FAB1D1BFE47226B /* CalloutAndAnchorView.swift */; };
+		86AA9FC981C6AD5D03CA1D4BFD51FD1D /* SwiftCSV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FE5768E05ADB8614BE4D9B90869C33 /* SwiftCSV-dummy.m */; };
+		8831C03BFAD640B384B0AF4A3C0E2115 /* PMAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */; };
+		8A4DB9795771D216FE87EDABCD89AF60 /* DefaultCalloutViewThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2814A8ABACE5034A89E92D6247F84 /* DefaultCalloutViewThemeManager.swift */; };
+		8DA1DCD729CE544E554426AC6A02CC0B /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF957C9C27A2F18C255716B7E3E3784F /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C10F9F51CD2A8E9680B85535263BB9 /* DefaultCalloutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C971EFD4A7EE947738D03BD79D39C3 /* DefaultCalloutViewModel.swift */; };
+		92C790328F0C52977F80C0B4ECBF6A97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EF5397E4BAB399B33DE9AFC9497743 /* UIKit.framework */; };
+		93D8CEFB102C95EA87EEE89D05353D97 /* CFAlertActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB10A19C8E07DAA8D670B38748FE328 /* CFAlertActionTableViewCell.xib */; };
+		9E03313FFA2ABA45DD7E57668EF8BDA9 /* CFAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E09D363F209CBEA9C766C60E0158E41 /* CFAlertViewController-dummy.m */; };
+		9FED176A524EA38F4C7E684C72AAEE4A /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6E16875E21D862C10F891C415E631A /* PMAlertController.xib */; };
+		A278B86E8182E52461108D6A0B792C48 /* Pods-TreeMapBCUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 128FAD1855D6D5091EBDD5DE54176C80 /* Pods-TreeMapBCUITests-dummy.m */; };
+		A317E632C48B5D4A15D0CBD1E5499430 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A256D65A69EC7E77ECFB05493802CE /* ImageCache.swift */; };
+		A43F1308D1FF06D3E6B93EC3068E93C6 /* CFAlertActionSheetTransitionGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54849B8D828C099627E045ADB50D3C3 /* CFAlertActionSheetTransitionGestureRecognizer.swift */; };
+		A4420637EE415057C5BA22ABE5A984F9 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13342EC203051C33597F8A28AD00F300 /* Image.swift */; };
+		A5C6C6AF307753F62CB842B879E50CB2 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1975A0869D4C12470541CD9E018A517 /* Kingfisher.swift */; };
+		A86CFB0F97C95200549E59C87E18DD82 /* SwiftCSV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5E89FF808E63E58C462846C6288B2C /* SwiftCSV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB896E86184C7E4C1B132A6FD48C945F /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D83CBB1D960D9DA7A786C287A25A08 /* ThreadHelper.swift */; };
+		ABD0719C83EB34C533393B6826E69BC9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632169E79C5DC8322DFC37C4ECD12337 /* CFNetwork.framework */; };
+		AC3A9BBBC696D7F15419180CBE24DE2A /* NamedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A12238F35EC2D556333341D0929BECB /* NamedView.swift */; };
+		AE94166107B8DFBA5F63A6A518728738 /* CFAlertTitleSubtitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F10153B775D0E96538076E929C4879C /* CFAlertTitleSubtitleTableViewCell.xib */; };
+		B31A8515386081B70C5A5ACC5150F203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		B5ECEA1D55A08F82E73076E12B33B6E4 /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632822B02B4161027205A7A05414F24 /* PMAlertAction.swift */; };
+		B6F28CE1A332A2E43551FBA7CC71337A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		B70284140C6BC6FCDD865022BC5619DA /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7A64826671C175AE3024653457338 /* PMAlertController.swift */; };
+		B7887D6C1C8093CE65CBB6EE4118779C /* MapViewPlusAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6BBE7F99E2E6BE64AD04E826C8922F /* MapViewPlusAnimator.swift */; };
+		B7CC449178B535180A434D40C6D41BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		B7F559ABF7622040866557F0C6F422C3 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A532E52B23E90CEC708392EF6F8DB3 /* RequestModifier.swift */; };
+		C08A09B0CEBC18AD963AAFB1778A9848 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277EF3FE02048F5F10DB6C6663426A5 /* KingfisherManager.swift */; };
+		C13ABA25F5F12F5E556B37344591D962 /* AnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A865F1207C1C7AB971A98C00E8E7069B /* AnchorView.swift */; };
+		C37D44865161F087333CAC1EAD7AA3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		C6F3A2CB1E171122BD1AF9E114318D3E /* CFAlertBaseTransitionGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7271B9DF0F569388FF25F8BB68DE5B47 /* CFAlertBaseTransitionGestureRecognizer.swift */; };
+		C79D4F0D0C79942AAD2B4F16D0766095 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0956351CF665AE40F24565EA11FB332 /* CacheSerializer.swift */; };
+		C7D79905255E40DF892829E3BA925BFE /* CFPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62714727B169D712E98B69EDAE099E78 /* CFPushButton.swift */; };
+		CD92E3C8B2B53B5545D1B0394881A1EB /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD18FA8CAB21FE4295611FC6975FE67 /* ImageDownloader.swift */; };
+		CDC43E21A6B99558C46CCB4A7E06C0A2 /* CFAlertPopupTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C45874D3F5B284AA2E73991B7CE0A /* CFAlertPopupTransition.swift */; };
+		D039C376EB8C1E43B803B1C072AC48E3 /* MapViewPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6143BA3ED67B684D07C97BCE34BAC3 /* MapViewPlus-dummy.m */; };
+		D20FB19E0BAD5AA19CD8D7CA5563B3F1 /* Pods-TreeMapBC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C75FD1DBDB55CCB194D6093FE43D84 /* Pods-TreeMapBC-dummy.m */; };
+		D6D0C8BC66A9B2B56670C84E54315BE3 /* DefaultCalloutView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 957DDDE1BC3C1CFEF18750C6BA9C6F50 /* DefaultCalloutView.xib */; };
+		D9353AC6E10BB2DFB6F1AC497096EDF1 /* ImagesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AB94F580B1C1A19D9B7BA64D3CB85 /* ImagesHelper.swift */; };
+		DF110883335AA56F0E49C8AEC7387A36 /* MapViewPlusDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288C6F85D613C71443E2F1616558D5D /* MapViewPlusDelegates.swift */; };
+		E1EFE7311E5D9C6972178736E78B12D9 /* MapViewPlusTemplateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD709D6CD8BAE6B0A12C2134462810A /* MapViewPlusTemplateHelper.swift */; };
+		E3C24AB1E7B29F1BB1DC305F1575312E /* Pods-TreeMapBC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7CA12B569CBD7E13986E4322848DD3 /* Pods-TreeMapBC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4326632509DC119D9F20A4ADF1A5EDB /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17FE0745CD3FCE23DD30FFD3750C29 /* Description.swift */; };
+		E6786B0C96039AB39F4FFA54AE5517F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		E8F4A7D2FAE517E711A2776B6ED8D6E6 /* CFAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5AD8D0BA83834CB8D6179AD4B07B1 /* CFAlertActionTableViewCell.swift */; };
+		EAAF6E89476D2D619962C3F496B326B3 /* CFAlertActionSheetInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448E2A42E7B609A1850E0329A34C21E /* CFAlertActionSheetInteractiveTransition.swift */; };
+		EBFB89C0207BF3D0344070E206A709AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EF5397E4BAB399B33DE9AFC9497743 /* UIKit.framework */; };
+		F222522EC49C600A5FD1E748B2307F03 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7900EBB43FAEE15380BF63A5E1E619 /* MapKit.framework */; };
+		F4D881AA25F0D6E2CB8B35C310F7BFF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */; };
+		F9BC0BCD165A3FCA8636CE51007A28A2 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB22BB3C239C51149EA496DE8C9693 /* Filter.swift */; };
+		FE67CCA659E2C47FBE13DBF172F862D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563C531B94C4C8631AF59324176E1F8B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E91D1C815D1EFD98B067E49E4F11FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902E26B6547F079F6F96B6EA275C1C93;
+			remoteInfo = CFAlertViewController;
+		};
+		101E38FB5DC6B2F1BB5B59752EDC5B11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF447278DD2A27045784F5DA5241502E;
+			remoteInfo = PMAlertController;
+		};
+		1C4C0D1D7417BC591838D6388F52DFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7465E4C13FFC9CE6D359E31F65D6825;
+			remoteInfo = SwiftCSV;
+		};
+		28ADFEE12AB4068E5F7F2B58BBE179FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820869F62EED9AF0F38C732CBE5DE080;
+			remoteInfo = "Pods-TreeMapBC";
+		};
+		310D10C5342F36E527EF9DA85B977113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820869F62EED9AF0F38C732CBE5DE080;
+			remoteInfo = "Pods-TreeMapBC";
+		};
+		3E4663CAE853179DFDD99E3B98A9D3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
+			remoteInfo = Kingfisher;
+		};
+		57777BA42AFF0E0CF99A522813BB1F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3F557308DD735B3427E587B18B8A80;
+			remoteInfo = "MapViewPlus-MapViewPlus";
+		};
+		C9FE6BAB4276629816D9A797B2D44099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104F1045445BF4FD4CDBD09DBF9281B5;
+			remoteInfo = MapViewPlus;
+		};
+		E37EED14FEBB8735C33C92D0078AE107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+		EB68284FBFB1E01C202824BAD32D3BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
+			remoteInfo = Kingfisher;
+		};
+		EDD12409CDAAC2C2B2B4D067B4037740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E587873091CEC554E4965B6FC547D2FD;
+			remoteInfo = "PMAlertController-PMAlertController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0229A7681C2689693DCE823BAE2C1C62 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		03348E297B796054CA625BBDE72650EE /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		03D08649384E673FB73CE750D131E27F /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		0405FCBD338EDCBA524EAFF7AF2D27F0 /* Pods-TreeMapBC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TreeMapBC-Info.plist"; sourceTree = "<group>"; };
+		05C75FD1DBDB55CCB194D6093FE43D84 /* Pods-TreeMapBC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TreeMapBC-dummy.m"; sourceTree = "<group>"; };
+		09D1600CA2584F8A6D655AF8C9B1E82E /* Pods-TreeMapBC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TreeMapBC-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1255658E303CF981952B1A901E420714 /* CFAlertViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CFAlertViewController-Info.plist"; sourceTree = "<group>"; };
+		128FAD1855D6D5091EBDD5DE54176C80 /* Pods-TreeMapBCUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TreeMapBCUITests-dummy.m"; sourceTree = "<group>"; };
+		13342EC203051C33597F8A28AD00F300 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		1638D796EC2958F2D4E980F7FDAD71B7 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		1731FDB3DF5EB2B5D8FADEFC3F19DFB9 /* Pods-TreeMapBCUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TreeMapBCUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A498EC8D2DEF57D21BDC38D9ECF5998 /* CFAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertViewController.swift; path = CFAlertViewController/CFAlertViewController.swift; sourceTree = "<group>"; };
+		1C72B7830B992A95F9391E4C78DDDDD0 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		1D6BBE7F99E2E6BE64AD04E826C8922F /* MapViewPlusAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapViewPlusAnimator.swift; path = MapViewPlus/Classes/Animator/MapViewPlusAnimator.swift; sourceTree = "<group>"; };
+		20994A38638F6FCBECF54E2CF73F6584 /* CFAlertNotificationInteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertNotificationInteractiveTransition.swift; path = CFAlertViewController/Transitions/Notification/CFAlertNotificationInteractiveTransition.swift; sourceTree = "<group>"; };
+		2AB6A6EFC057E06FC1E1142957483467 /* CFAlertTitleSubtitleTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertTitleSubtitleTableViewCell.swift; path = CFAlertViewController/Cells/CFAlertTitleSubtitleTableViewCell.swift; sourceTree = "<group>"; };
+		2D3754AB1980AA696CD6F17C3E36B06B /* AnnotationPlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnnotationPlus.swift; path = MapViewPlus/Classes/Abstract/AnnotationPlus.swift; sourceTree = "<group>"; };
+		2E17FE0745CD3FCE23DD30FFD3750C29 /* Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Description.swift; path = SwiftCSV/Description.swift; sourceTree = "<group>"; };
+		3070D9EDC0AE0C0E580315C42A666C60 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		329B73B77E6F3E2ECF011CA3906C6A57 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		34CB22BB3C239C51149EA496DE8C9693 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		3632822B02B4161027205A7A05414F24 /* PMAlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertAction.swift; path = Library/PMAlertAction.swift; sourceTree = "<group>"; };
+		3729D76FBC6A9390B009874AF7CD8CFE /* Pods-TreeMapBCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TreeMapBCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		391B05A674A032479967C71FD5AC2FF5 /* CFAlertViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFAlertViewController-umbrella.h"; sourceTree = "<group>"; };
+		3B225E447270E0867424A75BCA62C7CC /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		3D144497FDE38D4BDA6EFBED41131D16 /* Pods-TreeMapBCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TreeMapBCTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E09D363F209CBEA9C766C60E0158E41 /* CFAlertViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFAlertViewController-dummy.m"; sourceTree = "<group>"; };
+		3EF7A64826671C175AE3024653457338 /* PMAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertController.swift; path = Library/PMAlertController.swift; sourceTree = "<group>"; };
+		3FB8A498C655110BA5A039DA3D3C329D /* MapViewPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapViewPlus.framework; path = MapViewPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4288C6F85D613C71443E2F1616558D5D /* MapViewPlusDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapViewPlusDelegates.swift; path = MapViewPlus/Classes/Abstract/MapViewPlusDelegates.swift; sourceTree = "<group>"; };
+		434C45874D3F5B284AA2E73991B7CE0A /* CFAlertPopupTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertPopupTransition.swift; path = CFAlertViewController/Transitions/Popup/CFAlertPopupTransition.swift; sourceTree = "<group>"; };
+		437BFBE735ED4EF2A3BD3959F1E513DA /* Pods-TreeMapBCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TreeMapBCTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44D664761024653F54A6CC30C92095F0 /* Pods-TreeMapBC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TreeMapBC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A12238F35EC2D556333341D0929BECB /* NamedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NamedView.swift; path = SwiftCSV/NamedView.swift; sourceTree = "<group>"; };
+		4B76F532686300A84AC4058DF3BE1BC6 /* PMAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMAlertController-dummy.m"; sourceTree = "<group>"; };
+		4BCB4103EAEEE26D12F7CD60A4A2610B /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
+		4E52111EE50029C334FDC0A98AA281F5 /* CFAlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertAction.swift; path = CFAlertViewController/Models/CFAlertAction.swift; sourceTree = "<group>"; };
+		4F10153B775D0E96538076E929C4879C /* CFAlertTitleSubtitleTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CFAlertTitleSubtitleTableViewCell.xib; path = CFAlertViewController/Cells/CFAlertTitleSubtitleTableViewCell.xib; sourceTree = "<group>"; };
+		50A532E52B23E90CEC708392EF6F8DB3 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		5277EF3FE02048F5F10DB6C6663426A5 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		563C531B94C4C8631AF59324176E1F8B /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MapViewPlus/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		56CABA50D84376CAAD7436058E91C7BE /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		586EB72D7A597F27670880E14D8824D4 /* CFAlertBaseInteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertBaseInteractiveTransition.swift; path = CFAlertViewController/Transitions/Base/CFAlertBaseInteractiveTransition.swift; sourceTree = "<group>"; };
+		59FE05AFAE2A9ACBE8CE4C5A9C68ED37 /* CFAlertViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFAlertViewController-prefix.pch"; sourceTree = "<group>"; };
+		5A6CBEAC7212DCE694AC28667C36D2D1 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCSV.framework; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E03658E98EB0DF66109DC4BEEF622F4 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		5E1038382CE8AB22FD8320476A2BE65D /* CFAlertNotificationTransitionGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertNotificationTransitionGestureRecognizer.swift; path = CFAlertViewController/Transitions/Notification/CFAlertNotificationTransitionGestureRecognizer.swift; sourceTree = "<group>"; };
+		5E95DC18757CE38E6E2168C1D5B0862E /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		5EBC1AD47DC2008415361CAC0218461C /* Pods-TreeMapBCUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TreeMapBCUITests.modulemap"; sourceTree = "<group>"; };
+		608DEA2CB2DA8D76A77570FCBDF389C8 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		613DDC9439CF871C4C3967D569CB583A /* MapViewPlus.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MapViewPlus.bundle; path = "MapViewPlus-MapViewPlus.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62714727B169D712E98B69EDAE099E78 /* CFPushButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFPushButton.swift; path = CFAlertViewController/Subclass/CFPushButton/CFPushButton.swift; sourceTree = "<group>"; };
+		632169E79C5DC8322DFC37C4ECD12337 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		6365948CA4AB0080263FA4BCA70BE112 /* Pods-TreeMapBCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TreeMapBCTests.modulemap"; sourceTree = "<group>"; };
+		63E6A79373A87F85AFCFA2A7F23BD97C /* Pods_TreeMapBCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TreeMapBCTests.framework; path = "Pods-TreeMapBCTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CA5C69558B63B6B4E4DE6CF4823BBD /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		65E6817A379EE665E10A4E209065DE2E /* PMAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-umbrella.h"; sourceTree = "<group>"; };
+		65F8902F867838AA9A8A26B72CCF753A /* Pods-TreeMapBCTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TreeMapBCTests-Info.plist"; sourceTree = "<group>"; };
+		668877F3402028B37992E7B6E922BFB7 /* Pods-TreeMapBC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TreeMapBC-frameworks.sh"; sourceTree = "<group>"; };
+		6706195F8F8E5166879BDDB931FC36BD /* PMAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMAlertController.xcconfig; sourceTree = "<group>"; };
+		67B2814A8ABACE5034A89E92D6247F84 /* DefaultCalloutViewThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCalloutViewThemeManager.swift; path = MapViewPlus/Classes/DefaultCalloutView/DefaultCalloutViewThemeManager.swift; sourceTree = "<group>"; };
+		67F56C69B44F461E15B509C1EE89DEA1 /* ParsingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParsingState.swift; path = SwiftCSV/ParsingState.swift; sourceTree = "<group>"; };
+		68477F83CCB7D870101D0AAF19D1200B /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		69FE5768E05ADB8614BE4D9B90869C33 /* SwiftCSV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCSV-dummy.m"; sourceTree = "<group>"; };
+		6C6DB1AC0BAE6CCF728C3DF52126839D /* MapViewPlus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MapViewPlus-Info.plist"; sourceTree = "<group>"; };
+		6C80130A19526420D990367DEA255195 /* Pods_TreeMapBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TreeMapBC.framework; path = "Pods-TreeMapBC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD744DE1D605DE21A3CB2D3E300A386 /* CFAlertViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CFAlertViewController.modulemap; sourceTree = "<group>"; };
+		6E3E4406FE2083E792B2A15B7E773C5F /* MapViewPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapViewPlus.modulemap; sourceTree = "<group>"; };
+		7271B9DF0F569388FF25F8BB68DE5B47 /* CFAlertBaseTransitionGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertBaseTransitionGestureRecognizer.swift; path = CFAlertViewController/Transitions/Base/CFAlertBaseTransitionGestureRecognizer.swift; sourceTree = "<group>"; };
+		752F877CD68BCFE2C3D0392D13A2A0CC /* CFAlertViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFAlertViewController.xcconfig; sourceTree = "<group>"; };
+		763DE51D34FE02A1DE838391272018EC /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
+		76A256D65A69EC7E77ECFB05493802CE /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		76A9FBA106507CDC8EBB7F13D5A95DE1 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		772FF067FAF69BBC242C64A497BF003B /* String+Lines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Lines.swift"; path = "SwiftCSV/String+Lines.swift"; sourceTree = "<group>"; };
+		78009085078612352393C186617061B0 /* SwiftCSV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-prefix.pch"; sourceTree = "<group>"; };
+		7B0AB94F580B1C1A19D9B7BA64D3CB85 /* ImagesHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagesHelper.swift; path = MapViewPlus/Classes/Helper/ImagesHelper.swift; sourceTree = "<group>"; };
+		7C20AB461F56C1227A56DAE0D34E2EE1 /* Pods-TreeMapBCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TreeMapBCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C5E89FF808E63E58C462846C6288B2C /* SwiftCSV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-umbrella.h"; sourceTree = "<group>"; };
+		7F7CA12B569CBD7E13986E4322848DD3 /* Pods-TreeMapBC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TreeMapBC-umbrella.h"; sourceTree = "<group>"; };
+		8448E2A42E7B609A1850E0329A34C21E /* CFAlertActionSheetInteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertActionSheetInteractiveTransition.swift; path = "CFAlertViewController/Transitions/Action Sheet/CFAlertActionSheetInteractiveTransition.swift"; sourceTree = "<group>"; };
+		8AE31BEF20CD996E85559552B9E41644 /* PMAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-prefix.pch"; sourceTree = "<group>"; };
+		8BD18FA8CAB21FE4295611FC6975FE67 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		8CF67EE9E122D3809E087FEBD96A0F85 /* Pods-TreeMapBC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TreeMapBC.debug.xcconfig"; sourceTree = "<group>"; };
+		8D0FE57DA06241777FAB1D1BFE47226B /* CalloutAndAnchorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalloutAndAnchorView.swift; path = MapViewPlus/Classes/Views/CalloutAndAnchorView.swift; sourceTree = "<group>"; };
+		913A601E9794C831A5B7C267DAF085DC /* PMAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PMAlertController.modulemap; sourceTree = "<group>"; };
+		914EBBA3A3B2374E8EEF2897744DC659 /* SwiftCSV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCSV-Info.plist"; sourceTree = "<group>"; };
+		9255EB5CF99BEAEE3B407EA21893A055 /* Pods-TreeMapBCUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TreeMapBCUITests-umbrella.h"; sourceTree = "<group>"; };
+		9380415964C2E55BF1956BFF7C3FA025 /* MapViewPlus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapViewPlus.xcconfig; sourceTree = "<group>"; };
+		93D34B6E085CC3917751D082E709EC5B /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		957DDDE1BC3C1CFEF18750C6BA9C6F50 /* DefaultCalloutView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DefaultCalloutView.xib; path = MapViewPlus/Classes/DefaultCalloutView/DefaultCalloutView.xib; sourceTree = "<group>"; };
+		99C99A365A77DCD06A9D01940EC04A43 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		9AA32BFD9BCA4900C2368A438F9A71C4 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = SwiftCSV/Parser.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8A704049DD25653E99822EF0D0ED99 /* Pods_TreeMapBCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TreeMapBCUITests.framework; path = "Pods-TreeMapBCUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F914A7498FBE10312BF3E5DD5F654D8 /* CFAlertViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CFAlertViewController.framework; path = CFAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DEB8117A2DF95EFE17A50AA1DA4731 /* MapViewPlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapViewPlus.swift; path = MapViewPlus/Classes/Source/MapViewPlus.swift; sourceTree = "<group>"; };
+		A2732FC6521206FD3C8A930FAAF3B942 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		A40A3DA05EE1EA546C76C716175599C7 /* ResourceBundle-PMAlertController-PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PMAlertController-PMAlertController-Info.plist"; sourceTree = "<group>"; };
+		A4DF87DCDBDC14EF4EF7560EE8542A18 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		A54849B8D828C099627E045ADB50D3C3 /* CFAlertActionSheetTransitionGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertActionSheetTransitionGestureRecognizer.swift; path = "CFAlertViewController/Transitions/Action Sheet/CFAlertActionSheetTransitionGestureRecognizer.swift"; sourceTree = "<group>"; };
+		A7B7274B4522302B0075B864904EE030 /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
+		A7C610CCCFE87F9B9FC77F276D576C2B /* SwiftCSV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCSV.modulemap; sourceTree = "<group>"; };
+		A865F1207C1C7AB971A98C00E8E7069B /* AnchorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchorView.swift; path = MapViewPlus/Classes/Views/AnchorView.swift; sourceTree = "<group>"; };
+		A9B12F6B42BC3113FC5687A34B17329D /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		AA4F86BC9CB468E258FE242CBA1FBB39 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		AF957C9C27A2F18C255716B7E3E3784F /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		AFD709D6CD8BAE6B0A12C2134462810A /* MapViewPlusTemplateHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapViewPlusTemplateHelper.swift; path = MapViewPlus/Classes/Helper/MapViewPlusTemplateHelper.swift; sourceTree = "<group>"; };
+		B0C971EFD4A7EE947738D03BD79D39C3 /* DefaultCalloutViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCalloutViewModel.swift; path = MapViewPlus/Classes/DefaultCalloutView/DefaultCalloutViewModel.swift; sourceTree = "<group>"; };
+		B1975A0869D4C12470541CD9E018A517 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		B4361A9595908A880D7ECE36C4AA3E90 /* PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PMAlertController-Info.plist"; sourceTree = "<group>"; };
+		B6151507D2470DF3CD0AADDDB89C9E3C /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77E190B3E4E9ACFC03914EE2CA3B799 /* Pods-TreeMapBCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TreeMapBCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7D5AD8D0BA83834CB8D6179AD4B07B1 /* CFAlertActionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAlertActionTableViewCell.swift; path = CFAlertViewController/Cells/CFAlertActionTableViewCell.swift; sourceTree = "<group>"; };
+		B7EF5397E4BAB399B33DE9AFC9497743 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA5717AAE2A3CFDFA514901768BF413C /* Pods-TreeMapBCUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TreeMapBCUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6143BA3ED67B684D07C97BCE34BAC3 /* MapViewPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapViewPlus-dummy.m"; sourceTree = "<group>"; };
+		BD658A7AE014CF9476892772DDD64F43 /* MapViewPlus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapViewPlus-prefix.pch"; sourceTree = "<group>"; };
+		BDF1CF17DA6154AFBAB80A7045AF55F1 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		C0956351CF665AE40F24565EA11FB332 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		C3D74217CBF0FABF8AF2AE0E5BB57A8A /* EnumeratedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumeratedView.swift; path = SwiftCSV/EnumeratedView.swift; sourceTree = "<group>"; };
+		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D83CBB1D960D9DA7A786C287A25A08 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PMAlertController.framework; path = PMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90FCA1861C356AEF3D47F5ABE3D22AC /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		CC6E16875E21D862C10F891C415E631A /* PMAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PMAlertController.xib; path = Library/PMAlertController.xib; sourceTree = "<group>"; };
+		CD302251D8187F9EF9822F8D97E02FEC /* CalloutViewPlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalloutViewPlus.swift; path = MapViewPlus/Classes/Abstract/CalloutViewPlus.swift; sourceTree = "<group>"; };
+		CE4ED1F58879D1CB21CF19425A3252C3 /* Pods-TreeMapBC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TreeMapBC.modulemap"; sourceTree = "<group>"; };
+		D0811389F29A9B00AE1D41B24C7496F8 /* Pods-TreeMapBCUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TreeMapBCUITests-Info.plist"; sourceTree = "<group>"; };
+		D3E0AE36CD8C7F5F46D22D41BAAA72BE /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		D53835034113CCF579625BCFB1A380F0 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		D608C32BE88BDC069CB0AB6375565835 /* Pods-TreeMapBC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TreeMapBC.release.xcconfig"; sourceTree = "<group>"; };
+		D6C4D033C3295CBAED2D7EC675F2DD7E /* Pods-TreeMapBCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TreeMapBCTests-dummy.m"; sourceTree = "<group>"; };
+		D9DF4089F35F59BE7B50C1BF647D016D /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		DAF6C44BF515921050C5EEF12D046FEE /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = SwiftCSV/CSV.swift; sourceTree = "<group>"; };
+		DE402958D54701757E3EC8D55402924A /* SwiftCSV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSV.xcconfig; sourceTree = "<group>"; };
+		E0D4EE115E7D1799D66B5C0629E8B609 /* MapViewPlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapViewPlus-umbrella.h"; sourceTree = "<group>"; };
+		E571240F01FDF8565CC22DF2187C1823 /* Pods-TreeMapBCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TreeMapBCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PMAlertController.bundle; path = "PMAlertController-PMAlertController.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB10A19C8E07DAA8D670B38748FE328 /* CFAlertActionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CFAlertActionTableViewCell.xib; path = CFAlertViewController/Cells/CFAlertActionTableViewCell.xib; sourceTree = "<group>"; };
+		F3C3780E87220B4D442E1B87E9BDF1BB /* ResourceBundle-MapViewPlus-MapViewPlus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MapViewPlus-MapViewPlus-Info.plist"; sourceTree = "<group>"; };
+		F515C93ED103B433B715DA8B25EB3943 /* DefaultCalloutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCalloutView.swift; path = MapViewPlus/Classes/DefaultCalloutView/DefaultCalloutView.swift; sourceTree = "<group>"; };
+		F79099FFDCBF11004612377698DD5B81 /* Pods-TreeMapBCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TreeMapBCTests-umbrella.h"; sourceTree = "<group>"; };
+		F98BB00627B97F81F2CBA17F5E09C543 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		FC7900EBB43FAEE15380BF63A5E1E619 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF0E06092D22BE19032B7F9C0AB4EE58 /* CFAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CFAlertViewController.xib; path = CFAlertViewController/CFAlertViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DECDBE37B34178E35A3B3D5EBC364A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37D44865161F087333CAC1EAD7AA3BB /* Foundation.framework in Frameworks */,
+				EBFB89C0207BF3D0344070E206A709AC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3389E4AC3EC3033CF535402458BCDA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FECEAC084882D3EB3AA06008499F41A /* Foundation.framework in Frameworks */,
+				92C790328F0C52977F80C0B4ECBF6A97 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B63C021A0FA31B9F0F42FCF656BBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD0719C83EB34C533393B6826E69BC9 /* CFNetwork.framework in Frameworks */,
+				218FC76735C2CD3E84F920CE33EDD6FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACB01642BA474B1C4EE2706FF98FC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D881AA25F0D6E2CB8B35C310F7BFF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95365492A690ABD7958CC9D76847E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CC449178B535180A434D40C6D41BC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C2121F23D1529DA9152E5CA1DC2B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31A8515386081B70C5A5ACC5150F203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5B402C19EE7A928A0E3097F062D7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C185DF3D8DBD57A3A4F184354CAB3BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FCE7E4ABBAF2F26C6FF44962F7FBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605312F2D1B8710E4FBCD9D4F6FF998D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8FC98E125B748016FFBFDFF33D0287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F28CE1A332A2E43551FBA7CC71337A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED12C7EDFEB26D5FAD6C698168F0C3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6786B0C96039AB39F4FFA54AE5517F1 /* Foundation.framework in Frameworks */,
+				57373DBECB85E0F33BF755AC1E9B55B6 /* Kingfisher.framework in Frameworks */,
+				F222522EC49C600A5FD1E748B2307F03 /* MapKit.framework in Frameworks */,
+				823ECDAF70D96AD44791756F2B13B7C1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D6DE3C47921261EBE572019A33DEE4 /* SwiftCSV */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6C44BF515921050C5EEF12D046FEE /* CSV.swift */,
+				2E17FE0745CD3FCE23DD30FFD3750C29 /* Description.swift */,
+				C3D74217CBF0FABF8AF2AE0E5BB57A8A /* EnumeratedView.swift */,
+				4A12238F35EC2D556333341D0929BECB /* NamedView.swift */,
+				9AA32BFD9BCA4900C2368A438F9A71C4 /* Parser.swift */,
+				67F56C69B44F461E15B509C1EE89DEA1 /* ParsingState.swift */,
+				772FF067FAF69BBC242C64A497BF003B /* String+Lines.swift */,
+				64240711400465A30FA458F23CB36A9B /* Support Files */,
+			);
+			name = SwiftCSV;
+			path = SwiftCSV;
+			sourceTree = "<group>";
+		};
+		037003E73272F6C3B0432E8DD5A04273 /* Pods-TreeMapBCTests */ = {
+			isa = PBXGroup;
+			children = (
+				6365948CA4AB0080263FA4BCA70BE112 /* Pods-TreeMapBCTests.modulemap */,
+				E571240F01FDF8565CC22DF2187C1823 /* Pods-TreeMapBCTests-acknowledgements.markdown */,
+				437BFBE735ED4EF2A3BD3959F1E513DA /* Pods-TreeMapBCTests-acknowledgements.plist */,
+				D6C4D033C3295CBAED2D7EC675F2DD7E /* Pods-TreeMapBCTests-dummy.m */,
+				65F8902F867838AA9A8A26B72CCF753A /* Pods-TreeMapBCTests-Info.plist */,
+				F79099FFDCBF11004612377698DD5B81 /* Pods-TreeMapBCTests-umbrella.h */,
+				7C20AB461F56C1227A56DAE0D34E2EE1 /* Pods-TreeMapBCTests.debug.xcconfig */,
+				3D144497FDE38D4BDA6EFBED41131D16 /* Pods-TreeMapBCTests.release.xcconfig */,
+			);
+			name = "Pods-TreeMapBCTests";
+			path = "Target Support Files/Pods-TreeMapBCTests";
+			sourceTree = "<group>";
+		};
+		1246B59769F04161C2B55ABE9F1D7652 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF87DCDBDC14EF4EF7560EE8542A18 /* SideMenuManager.swift */,
+				D3E0AE36CD8C7F5F46D22D41BAAA72BE /* SideMenuTransition.swift */,
+				03D08649384E673FB73CE750D131E27F /* UISideMenuNavigationController.swift */,
+				608DEA2CB2DA8D76A77570FCBDF389C8 /* UITableViewVibrantCell.swift */,
+				A75EA2F30CDAC8ED4A849DDC6E2F688B /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		15FA820F99C803E07A10380A623DBE7C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				913A601E9794C831A5B7C267DAF085DC /* PMAlertController.modulemap */,
+				6706195F8F8E5166879BDDB931FC36BD /* PMAlertController.xcconfig */,
+				4B76F532686300A84AC4058DF3BE1BC6 /* PMAlertController-dummy.m */,
+				B4361A9595908A880D7ECE36C4AA3E90 /* PMAlertController-Info.plist */,
+				8AE31BEF20CD996E85559552B9E41644 /* PMAlertController-prefix.pch */,
+				65E6817A379EE665E10A4E209065DE2E /* PMAlertController-umbrella.h */,
+				A40A3DA05EE1EA546C76C716175599C7 /* ResourceBundle-PMAlertController-PMAlertController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PMAlertController";
+			sourceTree = "<group>";
+		};
+		16009B9E21C70A1BD011C8D5A345BA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F914A7498FBE10312BF3E5DD5F654D8 /* CFAlertViewController.framework */,
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
+				613DDC9439CF871C4C3967D569CB583A /* MapViewPlus.bundle */,
+				3FB8A498C655110BA5A039DA3D3C329D /* MapViewPlus.framework */,
+				ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */,
+				C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */,
+				6C80130A19526420D990367DEA255195 /* Pods_TreeMapBC.framework */,
+				63E6A79373A87F85AFCFA2A7F23BD97C /* Pods_TreeMapBCTests.framework */,
+				9F8A704049DD25653E99822EF0D0ED99 /* Pods_TreeMapBCUITests.framework */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */,
+				5A6CBEAC7212DCE694AC28667C36D2D1 /* SwiftCSV.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		407BAC64CED0825A1C39B444F11495CC /* CFAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4E52111EE50029C334FDC0A98AA281F5 /* CFAlertAction.swift */,
+				8448E2A42E7B609A1850E0329A34C21E /* CFAlertActionSheetInteractiveTransition.swift */,
+				A54849B8D828C099627E045ADB50D3C3 /* CFAlertActionSheetTransitionGestureRecognizer.swift */,
+				B7D5AD8D0BA83834CB8D6179AD4B07B1 /* CFAlertActionTableViewCell.swift */,
+				586EB72D7A597F27670880E14D8824D4 /* CFAlertBaseInteractiveTransition.swift */,
+				7271B9DF0F569388FF25F8BB68DE5B47 /* CFAlertBaseTransitionGestureRecognizer.swift */,
+				20994A38638F6FCBECF54E2CF73F6584 /* CFAlertNotificationInteractiveTransition.swift */,
+				5E1038382CE8AB22FD8320476A2BE65D /* CFAlertNotificationTransitionGestureRecognizer.swift */,
+				434C45874D3F5B284AA2E73991B7CE0A /* CFAlertPopupTransition.swift */,
+				2AB6A6EFC057E06FC1E1142957483467 /* CFAlertTitleSubtitleTableViewCell.swift */,
+				1A498EC8D2DEF57D21BDC38D9ECF5998 /* CFAlertViewController.swift */,
+				62714727B169D712E98B69EDAE099E78 /* CFPushButton.swift */,
+				EAC066A65B2175C622A73E9AD21004B7 /* Resources */,
+				55B8EA2997128B8C97C5BF0F55D489E7 /* Support Files */,
+			);
+			name = CFAlertViewController;
+			path = CFAlertViewController;
+			sourceTree = "<group>";
+		};
+		4653D8FFBA2B858DDAD504F606322DA4 /* PMAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				3632822B02B4161027205A7A05414F24 /* PMAlertAction.swift */,
+				3EF7A64826671C175AE3024653457338 /* PMAlertController.swift */,
+				CC6E16875E21D862C10F891C415E631A /* PMAlertController.xib */,
+				B032C01BAEF39F8DD15222220031B6C1 /* Resources */,
+				15FA820F99C803E07A10380A623DBE7C /* Support Files */,
+			);
+			name = PMAlertController;
+			path = PMAlertController;
+			sourceTree = "<group>";
+		};
+		4BBDE93FFC146C7046692ECF132EAB49 /* Pods-TreeMapBCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EBC1AD47DC2008415361CAC0218461C /* Pods-TreeMapBCUITests.modulemap */,
+				BA5717AAE2A3CFDFA514901768BF413C /* Pods-TreeMapBCUITests-acknowledgements.markdown */,
+				1731FDB3DF5EB2B5D8FADEFC3F19DFB9 /* Pods-TreeMapBCUITests-acknowledgements.plist */,
+				128FAD1855D6D5091EBDD5DE54176C80 /* Pods-TreeMapBCUITests-dummy.m */,
+				D0811389F29A9B00AE1D41B24C7496F8 /* Pods-TreeMapBCUITests-Info.plist */,
+				9255EB5CF99BEAEE3B407EA21893A055 /* Pods-TreeMapBCUITests-umbrella.h */,
+				3729D76FBC6A9390B009874AF7CD8CFE /* Pods-TreeMapBCUITests.debug.xcconfig */,
+				B77E190B3E4E9ACFC03914EE2CA3B799 /* Pods-TreeMapBCUITests.release.xcconfig */,
+			);
+			name = "Pods-TreeMapBCUITests";
+			path = "Target Support Files/Pods-TreeMapBCUITests";
+			sourceTree = "<group>";
+		};
+		503DC4FBB17C79CBD647DC9582A0C453 /* Pods-TreeMapBC */ = {
+			isa = PBXGroup;
+			children = (
+				CE4ED1F58879D1CB21CF19425A3252C3 /* Pods-TreeMapBC.modulemap */,
+				44D664761024653F54A6CC30C92095F0 /* Pods-TreeMapBC-acknowledgements.markdown */,
+				09D1600CA2584F8A6D655AF8C9B1E82E /* Pods-TreeMapBC-acknowledgements.plist */,
+				05C75FD1DBDB55CCB194D6093FE43D84 /* Pods-TreeMapBC-dummy.m */,
+				668877F3402028B37992E7B6E922BFB7 /* Pods-TreeMapBC-frameworks.sh */,
+				0405FCBD338EDCBA524EAFF7AF2D27F0 /* Pods-TreeMapBC-Info.plist */,
+				7F7CA12B569CBD7E13986E4322848DD3 /* Pods-TreeMapBC-umbrella.h */,
+				8CF67EE9E122D3809E087FEBD96A0F85 /* Pods-TreeMapBC.debug.xcconfig */,
+				D608C32BE88BDC069CB0AB6375565835 /* Pods-TreeMapBC.release.xcconfig */,
+			);
+			name = "Pods-TreeMapBC";
+			path = "Target Support Files/Pods-TreeMapBC";
+			sourceTree = "<group>";
+		};
+		53C9159CD4673EDCD0F70C67287BBC6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6151507D2470DF3CD0AADDDB89C9E3C /* Kingfisher.framework */,
+				774651499024AB356D126663583E6C33 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55B8EA2997128B8C97C5BF0F55D489E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CD744DE1D605DE21A3CB2D3E300A386 /* CFAlertViewController.modulemap */,
+				752F877CD68BCFE2C3D0392D13A2A0CC /* CFAlertViewController.xcconfig */,
+				3E09D363F209CBEA9C766C60E0158E41 /* CFAlertViewController-dummy.m */,
+				1255658E303CF981952B1A901E420714 /* CFAlertViewController-Info.plist */,
+				59FE05AFAE2A9ACBE8CE4C5A9C68ED37 /* CFAlertViewController-prefix.pch */,
+				391B05A674A032479967C71FD5AC2FF5 /* CFAlertViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CFAlertViewController";
+			sourceTree = "<group>";
+		};
+		64240711400465A30FA458F23CB36A9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C610CCCFE87F9B9FC77F276D576C2B /* SwiftCSV.modulemap */,
+				DE402958D54701757E3EC8D55402924A /* SwiftCSV.xcconfig */,
+				69FE5768E05ADB8614BE4D9B90869C33 /* SwiftCSV-dummy.m */,
+				914EBBA3A3B2374E8EEF2897744DC659 /* SwiftCSV-Info.plist */,
+				78009085078612352393C186617061B0 /* SwiftCSV-prefix.pch */,
+				7C5E89FF808E63E58C462846C6288B2C /* SwiftCSV-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftCSV";
+			sourceTree = "<group>";
+		};
+		774651499024AB356D126663583E6C33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				632169E79C5DC8322DFC37C4ECD12337 /* CFNetwork.framework */,
+				0A4A5A5E51DC8179F5EC7E4F94E34722 /* Foundation.framework */,
+				FC7900EBB43FAEE15380BF63A5E1E619 /* MapKit.framework */,
+				B7EF5397E4BAB399B33DE9AFC9497743 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B6D119178AB2EA9AE01F7B95A932CB7 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				65CA5C69558B63B6B4E4DE6CF4823BBD /* AnimatedImageView.swift */,
+				1C72B7830B992A95F9391E4C78DDDDD0 /* Box.swift */,
+				C0956351CF665AE40F24565EA11FB332 /* CacheSerializer.swift */,
+				34CB22BB3C239C51149EA496DE8C9693 /* Filter.swift */,
+				03348E297B796054CA625BBDE72650EE /* FormatIndicatedCacheSerializer.swift */,
+				13342EC203051C33597F8A28AD00F300 /* Image.swift */,
+				76A256D65A69EC7E77ECFB05493802CE /* ImageCache.swift */,
+				8BD18FA8CAB21FE4295611FC6975FE67 /* ImageDownloader.swift */,
+				763DE51D34FE02A1DE838391272018EC /* ImageModifier.swift */,
+				3B225E447270E0867424A75BCA62C7CC /* ImagePrefetcher.swift */,
+				1638D796EC2958F2D4E980F7FDAD71B7 /* ImageProcessor.swift */,
+				68477F83CCB7D870101D0AAF19D1200B /* ImageTransition.swift */,
+				A9B12F6B42BC3113FC5687A34B17329D /* ImageView+Kingfisher.swift */,
+				A2732FC6521206FD3C8A930FAAF3B942 /* Indicator.swift */,
+				D9DF4089F35F59BE7B50C1BF647D016D /* Kingfisher.h */,
+				B1975A0869D4C12470541CD9E018A517 /* Kingfisher.swift */,
+				5277EF3FE02048F5F10DB6C6663426A5 /* KingfisherManager.swift */,
+				C90FCA1861C356AEF3D47F5ABE3D22AC /* KingfisherOptionsInfo.swift */,
+				4BCB4103EAEEE26D12F7CD60A4A2610B /* Placeholder.swift */,
+				50A532E52B23E90CEC708392EF6F8DB3 /* RequestModifier.swift */,
+				76A9FBA106507CDC8EBB7F13D5A95DE1 /* Resource.swift */,
+				5E95DC18757CE38E6E2168C1D5B0862E /* String+MD5.swift */,
+				C6D83CBB1D960D9DA7A786C287A25A08 /* ThreadHelper.swift */,
+				BDF1CF17DA6154AFBAB80A7045AF55F1 /* UIButton+Kingfisher.swift */,
+				9F64B79746F666BF1AF4125F9BFA7409 /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		92C349A3EFF407BD28982414ABB600C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				563C531B94C4C8631AF59324176E1F8B /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9F64B79746F666BF1AF4125F9BFA7409 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D34B6E085CC3917751D082E709EC5B /* Kingfisher.modulemap */,
+				F98BB00627B97F81F2CBA17F5E09C543 /* Kingfisher.xcconfig */,
+				0229A7681C2689693DCE823BAE2C1C62 /* Kingfisher-dummy.m */,
+				A7B7274B4522302B0075B864904EE030 /* Kingfisher-Info.plist */,
+				D53835034113CCF579625BCFB1A380F0 /* Kingfisher-prefix.pch */,
+				5E03658E98EB0DF66109DC4BEEF622F4 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		A75EA2F30CDAC8ED4A849DDC6E2F688B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C99A365A77DCD06A9D01940EC04A43 /* SideMenu.modulemap */,
+				56CABA50D84376CAAD7436058E91C7BE /* SideMenu.xcconfig */,
+				3070D9EDC0AE0C0E580315C42A666C60 /* SideMenu-dummy.m */,
+				AA4F86BC9CB468E258FE242CBA1FBB39 /* SideMenu-Info.plist */,
+				329B73B77E6F3E2ECF011CA3906C6A57 /* SideMenu-prefix.pch */,
+				AF957C9C27A2F18C255716B7E3E3784F /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		AA4D305537E8F09AFA5C24F54287D2E8 /* MapViewPlus */ = {
+			isa = PBXGroup;
+			children = (
+				A865F1207C1C7AB971A98C00E8E7069B /* AnchorView.swift */,
+				2D3754AB1980AA696CD6F17C3E36B06B /* AnnotationPlus.swift */,
+				8D0FE57DA06241777FAB1D1BFE47226B /* CalloutAndAnchorView.swift */,
+				CD302251D8187F9EF9822F8D97E02FEC /* CalloutViewPlus.swift */,
+				F515C93ED103B433B715DA8B25EB3943 /* DefaultCalloutView.swift */,
+				957DDDE1BC3C1CFEF18750C6BA9C6F50 /* DefaultCalloutView.xib */,
+				B0C971EFD4A7EE947738D03BD79D39C3 /* DefaultCalloutViewModel.swift */,
+				67B2814A8ABACE5034A89E92D6247F84 /* DefaultCalloutViewThemeManager.swift */,
+				7B0AB94F580B1C1A19D9B7BA64D3CB85 /* ImagesHelper.swift */,
+				A1DEB8117A2DF95EFE17A50AA1DA4731 /* MapViewPlus.swift */,
+				1D6BBE7F99E2E6BE64AD04E826C8922F /* MapViewPlusAnimator.swift */,
+				4288C6F85D613C71443E2F1616558D5D /* MapViewPlusDelegates.swift */,
+				AFD709D6CD8BAE6B0A12C2134462810A /* MapViewPlusTemplateHelper.swift */,
+				92C349A3EFF407BD28982414ABB600C7 /* Resources */,
+				AB7232CE7607E408431B3B8905A79D90 /* Support Files */,
+			);
+			name = MapViewPlus;
+			path = MapViewPlus;
+			sourceTree = "<group>";
+		};
+		AB7232CE7607E408431B3B8905A79D90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E3E4406FE2083E792B2A15B7E773C5F /* MapViewPlus.modulemap */,
+				9380415964C2E55BF1956BFF7C3FA025 /* MapViewPlus.xcconfig */,
+				BA6143BA3ED67B684D07C97BCE34BAC3 /* MapViewPlus-dummy.m */,
+				6C6DB1AC0BAE6CCF728C3DF52126839D /* MapViewPlus-Info.plist */,
+				BD658A7AE014CF9476892772DDD64F43 /* MapViewPlus-prefix.pch */,
+				E0D4EE115E7D1799D66B5C0629E8B609 /* MapViewPlus-umbrella.h */,
+				F3C3780E87220B4D442E1B87E9BDF1BB /* ResourceBundle-MapViewPlus-MapViewPlus-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapViewPlus";
+			sourceTree = "<group>";
+		};
+		B032C01BAEF39F8DD15222220031B6C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B143AE400663AB4304401259BAD10118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				407BAC64CED0825A1C39B444F11495CC /* CFAlertViewController */,
+				7B6D119178AB2EA9AE01F7B95A932CB7 /* Kingfisher */,
+				AA4D305537E8F09AFA5C24F54287D2E8 /* MapViewPlus */,
+				4653D8FFBA2B858DDAD504F606322DA4 /* PMAlertController */,
+				1246B59769F04161C2B55ABE9F1D7652 /* SideMenu */,
+				01D6DE3C47921261EBE572019A33DEE4 /* SwiftCSV */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C83435E3771C191F5A249AF829ADBF8A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				503DC4FBB17C79CBD647DC9582A0C453 /* Pods-TreeMapBC */,
+				037003E73272F6C3B0432E8DD5A04273 /* Pods-TreeMapBCTests */,
+				4BBDE93FFC146C7046692ECF132EAB49 /* Pods-TreeMapBCUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				53C9159CD4673EDCD0F70C67287BBC6E /* Frameworks */,
+				B143AE400663AB4304401259BAD10118 /* Pods */,
+				16009B9E21C70A1BD011C8D5A345BA54 /* Products */,
+				C83435E3771C191F5A249AF829ADBF8A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC066A65B2175C622A73E9AD21004B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFB10A19C8E07DAA8D670B38748FE328 /* CFAlertActionTableViewCell.xib */,
+				4F10153B775D0E96538076E929C4879C /* CFAlertTitleSubtitleTableViewCell.xib */,
+				FF0E06092D22BE19032B7F9C0AB4EE58 /* CFAlertViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		046B2AE704010968818F06CAD3A243B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F8F4398D71B5EAD51223D8D6CDC333 /* PMAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C3A3F2C156599953B7AF823E9FF6CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1395C5DA3B7AA6A17E28CF4A8E1B4633 /* CFAlertViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55862C95BDCC27FBA8D3534848F84603 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C24AB1E7B29F1BB1DC305F1575312E /* Pods-TreeMapBC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80389C13C777AB62A8A653FD28602B42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755E6E11284F28E57A17A1BC9B3FCC35 /* MapViewPlus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEBCF7F5A1F3E5393D3AEBE33CDD825 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA1DCD729CE544E554426AC6A02CC0B /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B338B354C92DC1414EA46072EDE417 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53164A2DDB944329FD8720F2F0D45228 /* Kingfisher-umbrella.h in Headers */,
+				39FC1A51FF31905080FDA44316A2E3FA /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930B8DA1E7D541132E47988EBAAF0D84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11850D83EC600C509D8F865AF9C491DA /* Pods-TreeMapBCTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9454A035013F19F5F9313F2C6B6FD591 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86CFB0F97C95200549E59C87E18DD82 /* SwiftCSV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E800FDB7F10F45FE8455E503FC1DED89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129FE2507D78F9AE9F9C8697FAC93DDE /* Pods-TreeMapBCUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		104F1045445BF4FD4CDBD09DBF9281B5 /* MapViewPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3EB3BD961E512C746D60678064D38 /* Build configuration list for PBXNativeTarget "MapViewPlus" */;
+			buildPhases = (
+				80389C13C777AB62A8A653FD28602B42 /* Headers */,
+				1F3D0A124C12054383CB3685B67A2F35 /* Sources */,
+				ED12C7EDFEB26D5FAD6C698168F0C3CF /* Frameworks */,
+				4872F2F1E683B4D87605493C5A366847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E735F09A187A2B08E5010146DFB2EF8 /* PBXTargetDependency */,
+				81BB12A8CD9C9F5FCC9944641CD4AEC4 /* PBXTargetDependency */,
+			);
+			name = MapViewPlus;
+			productName = MapViewPlus;
+			productReference = 3FB8A498C655110BA5A039DA3D3C329D /* MapViewPlus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B718501DE2DF0548066D20C991E2EFF /* Pods-TreeMapBCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99C877775B879F92FE1F704E3D25837 /* Build configuration list for PBXNativeTarget "Pods-TreeMapBCTests" */;
+			buildPhases = (
+				930B8DA1E7D541132E47988EBAAF0D84 /* Headers */,
+				A25C95F4708694F7E9610032ADBE00B7 /* Sources */,
+				6ACB01642BA474B1C4EE2706FF98FC3F /* Frameworks */,
+				869BD1D4B50BB249D3814E9E46585056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F26249191693721133B928614E0E21 /* PBXTargetDependency */,
+			);
+			name = "Pods-TreeMapBCTests";
+			productName = "Pods-TreeMapBCTests";
+			productReference = 63E6A79373A87F85AFCFA2A7F23BD97C /* Pods_TreeMapBCTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		820869F62EED9AF0F38C732CBE5DE080 /* Pods-TreeMapBC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB82B66E94F3092E85A9B4C5485ACB21 /* Build configuration list for PBXNativeTarget "Pods-TreeMapBC" */;
+			buildPhases = (
+				55862C95BDCC27FBA8D3534848F84603 /* Headers */,
+				57BF3340F0ED46056BF6E63E9D507C16 /* Sources */,
+				D3FCE7E4ABBAF2F26C6FF44962F7FBE8 /* Frameworks */,
+				A52A5595818D5958678EABC82B15B2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				989D0A35E92AE41D006BE01128E3E90E /* PBXTargetDependency */,
+				D7062C64A643BC1B9538A738D027FE04 /* PBXTargetDependency */,
+				6478A22C39E98A716C5BAFDB59771C5E /* PBXTargetDependency */,
+				59E1E7CE52DB99B2673CF34B8EE8E8AE /* PBXTargetDependency */,
+				EF9B4E157CFFE338CC34E35CAD7F6F68 /* PBXTargetDependency */,
+				751D620CD8A0AF18956D81E9F3C441B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TreeMapBC";
+			productName = "Pods-TreeMapBC";
+			productReference = 6C80130A19526420D990367DEA255195 /* Pods_TreeMapBC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E89684D90851DEC6CB9910DE9B852DF /* Pods-TreeMapBCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91E629C125679C3E800351369EF257C /* Build configuration list for PBXNativeTarget "Pods-TreeMapBCUITests" */;
+			buildPhases = (
+				E800FDB7F10F45FE8455E503FC1DED89 /* Headers */,
+				37854BAB55DA20BE3B06B11E6AAFF964 /* Sources */,
+				95365492A690ABD7958CC9D76847E7DD /* Frameworks */,
+				1911F41C90DE01D1A8E4C5640B4F1C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1BFA06669FE7BA40A746AE5353E0DF /* PBXTargetDependency */,
+			);
+			name = "Pods-TreeMapBCUITests";
+			productName = "Pods-TreeMapBCUITests";
+			productReference = 9F8A704049DD25653E99822EF0D0ED99 /* Pods_TreeMapBCUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		902E26B6547F079F6F96B6EA275C1C93 /* CFAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFD21A6FA12F25203D9FD893CB9D99E /* Build configuration list for PBXNativeTarget "CFAlertViewController" */;
+			buildPhases = (
+				30C3A3F2C156599953B7AF823E9FF6CD /* Headers */,
+				BF18BC6517DB2F1FE05279DE57B5E65F /* Sources */,
+				3389E4AC3EC3033CF535402458BCDA22 /* Frameworks */,
+				DF5180E197BE6CADBF577D87445B9553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFAlertViewController;
+			productName = CFAlertViewController;
+			productReference = 9F914A7498FBE10312BF3E5DD5F654D8 /* CFAlertViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB3F557308DD735B3427E587B18B8A80 /* MapViewPlus-MapViewPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54150FC7B504C75A3E5007530EE7B19D /* Build configuration list for PBXNativeTarget "MapViewPlus-MapViewPlus" */;
+			buildPhases = (
+				8D0A6F1DF5EB7668BF9BC431A8D3209F /* Sources */,
+				BF5B402C19EE7A928A0E3097F062D7FE /* Frameworks */,
+				0735BD9DA502A9C62A49154865CA543E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapViewPlus-MapViewPlus";
+			productName = "MapViewPlus-MapViewPlus";
+			productReference = 613DDC9439CF871C4C3967D569CB583A /* MapViewPlus.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AF447278DD2A27045784F5DA5241502E /* PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9932C350EF689236CBD826C9A59B7F1 /* Build configuration list for PBXNativeTarget "PMAlertController" */;
+			buildPhases = (
+				046B2AE704010968818F06CAD3A243B6 /* Headers */,
+				A1738679941B4CCABB0AF5207EF2F37D /* Sources */,
+				0DECDBE37B34178E35A3B3D5EBC364A1 /* Frameworks */,
+				84DE2679A06A2BEBE4520AE4F9383607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D1B584E292585D947ADAB9019D4B0E8 /* PBXTargetDependency */,
+			);
+			name = PMAlertController;
+			productName = PMAlertController;
+			productReference = C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCBB878FE817CF7378757F7C30D1616 /* Build configuration list for PBXNativeTarget "SwiftCSV" */;
+			buildPhases = (
+				9454A035013F19F5F9313F2C6B6FD591 /* Headers */,
+				5DB8683FD4EC2E07E03B765DEC4CAA24 /* Sources */,
+				95C2121F23D1529DA9152E5CA1DC2B3A /* Frameworks */,
+				A8645B289EFCD27C4334F0DF62673388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCSV;
+			productName = SwiftCSV;
+			productReference = 5A6CBEAC7212DCE694AC28667C36D2D1 /* SwiftCSV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742591745514CA130CBCE58783B71D6D /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				8DEBCF7F5A1F3E5393D3AEBE33CDD825 /* Headers */,
+				A22E753B07F0156B2C2186BD0DC94E44 /* Sources */,
+				DF8FC98E125B748016FFBFDFF33D0287 /* Frameworks */,
+				B259E78D2C14E31500C3E324932512E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAC9C15C29CAFCAB7D31EFD9781882A /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */;
+			buildPhases = (
+				79A4674130C729FDDF40C4F3182B149E /* Sources */,
+				C185DF3D8DBD57A3A4F184354CAB3BE9 /* Frameworks */,
+				0407D34C5D39075DE64E0C1461E13425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PMAlertController-PMAlertController";
+			productName = "PMAlertController-PMAlertController";
+			productReference = ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7975DE731E61F915096C31E290E8AE5B /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				90B338B354C92DC1414EA46072EDE417 /* Headers */,
+				434B6F9CACF190785FE64AD5921875A4 /* Sources */,
+				67B63C021A0FA31B9F0F42FCF656BBDB /* Frameworks */,
+				8E633C628D869E4E76B8631E685A5079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 16009B9E21C70A1BD011C8D5A345BA54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902E26B6547F079F6F96B6EA275C1C93 /* CFAlertViewController */,
+				E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */,
+				104F1045445BF4FD4CDBD09DBF9281B5 /* MapViewPlus */,
+				AB3F557308DD735B3427E587B18B8A80 /* MapViewPlus-MapViewPlus */,
+				AF447278DD2A27045784F5DA5241502E /* PMAlertController */,
+				E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */,
+				820869F62EED9AF0F38C732CBE5DE080 /* Pods-TreeMapBC */,
+				3B718501DE2DF0548066D20C991E2EFF /* Pods-TreeMapBCTests */,
+				8E89684D90851DEC6CB9910DE9B852DF /* Pods-TreeMapBCUITests */,
+				C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */,
+				B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0407D34C5D39075DE64E0C1461E13425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FED176A524EA38F4C7E684C72AAEE4A /* PMAlertController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0735BD9DA502A9C62A49154865CA543E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE67CCA659E2C47FBE13DBF172F862D3 /* Assets.xcassets in Resources */,
+				7CF5FBB6166CA374197208D252DB013F /* DefaultCalloutView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1911F41C90DE01D1A8E4C5640B4F1C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4872F2F1E683B4D87605493C5A366847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6729B1041A4D0849DFF33A6C81FD9310 /* MapViewPlus.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DE2679A06A2BEBE4520AE4F9383607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831C03BFAD640B384B0AF4A3C0E2115 /* PMAlertController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869BD1D4B50BB249D3814E9E46585056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E633C628D869E4E76B8631E685A5079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52A5595818D5958678EABC82B15B2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8645B289EFCD27C4334F0DF62673388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B259E78D2C14E31500C3E324932512E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5180E197BE6CADBF577D87445B9553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D8CEFB102C95EA87EEE89D05353D97 /* CFAlertActionTableViewCell.xib in Resources */,
+				AE94166107B8DFBA5F63A6A518728738 /* CFAlertTitleSubtitleTableViewCell.xib in Resources */,
+				43F271869112DCCB01E8A89C493F1530 /* CFAlertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3D0A124C12054383CB3685B67A2F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13ABA25F5F12F5E556B37344591D962 /* AnchorView.swift in Sources */,
+				10EE01067F8E76BC798A403F28E0E5CC /* AnnotationPlus.swift in Sources */,
+				84E50EC1F9720A0077EC28228031EFDC /* CalloutAndAnchorView.swift in Sources */,
+				00EE6C08C7C6856EFC35EA82863B47F7 /* CalloutViewPlus.swift in Sources */,
+				1D4A841D5FCECC98EBC70A0F413BE76F /* DefaultCalloutView.swift in Sources */,
+				D6D0C8BC66A9B2B56670C84E54315BE3 /* DefaultCalloutView.xib in Sources */,
+				91C10F9F51CD2A8E9680B85535263BB9 /* DefaultCalloutViewModel.swift in Sources */,
+				8A4DB9795771D216FE87EDABCD89AF60 /* DefaultCalloutViewThemeManager.swift in Sources */,
+				D9353AC6E10BB2DFB6F1AC497096EDF1 /* ImagesHelper.swift in Sources */,
+				D039C376EB8C1E43B803B1C072AC48E3 /* MapViewPlus-dummy.m in Sources */,
+				1DFF856ED6C75C3A913D044C7FC6E26F /* MapViewPlus.swift in Sources */,
+				B7887D6C1C8093CE65CBB6EE4118779C /* MapViewPlusAnimator.swift in Sources */,
+				DF110883335AA56F0E49C8AEC7387A36 /* MapViewPlusDelegates.swift in Sources */,
+				E1EFE7311E5D9C6972178736E78B12D9 /* MapViewPlusTemplateHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37854BAB55DA20BE3B06B11E6AAFF964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A278B86E8182E52461108D6A0B792C48 /* Pods-TreeMapBCUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434B6F9CACF190785FE64AD5921875A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E4D49372B55E745B36382B64130122 /* AnimatedImageView.swift in Sources */,
+				28FDC9276EEB4D7EF81271D302CD1D60 /* Box.swift in Sources */,
+				C79D4F0D0C79942AAD2B4F16D0766095 /* CacheSerializer.swift in Sources */,
+				F9BC0BCD165A3FCA8636CE51007A28A2 /* Filter.swift in Sources */,
+				17949EA5A648628698D3045C32125D9A /* FormatIndicatedCacheSerializer.swift in Sources */,
+				A4420637EE415057C5BA22ABE5A984F9 /* Image.swift in Sources */,
+				A317E632C48B5D4A15D0CBD1E5499430 /* ImageCache.swift in Sources */,
+				CD92E3C8B2B53B5545D1B0394881A1EB /* ImageDownloader.swift in Sources */,
+				443C09C19397A4B5599EA6AFC359678D /* ImageModifier.swift in Sources */,
+				27B427F4F2C7B3472B55F06404188D82 /* ImagePrefetcher.swift in Sources */,
+				59A62BE2B9F4EE2DB82C1A5705403F51 /* ImageProcessor.swift in Sources */,
+				5548C91B7B13B05D91EE5DAFFB3E8B14 /* ImageTransition.swift in Sources */,
+				4015497700167E2F7A78FB0FA8728D83 /* ImageView+Kingfisher.swift in Sources */,
+				5EABE357108BB0AC56B6C7D0AFCC4532 /* Indicator.swift in Sources */,
+				55B73B58EE9E36E4C860A2135A9796A9 /* Kingfisher-dummy.m in Sources */,
+				A5C6C6AF307753F62CB842B879E50CB2 /* Kingfisher.swift in Sources */,
+				C08A09B0CEBC18AD963AAFB1778A9848 /* KingfisherManager.swift in Sources */,
+				626CCD3B19CAB7090293FF68A57E610A /* KingfisherOptionsInfo.swift in Sources */,
+				0DC716D6A630FAC820D9EA7E6F36EDF4 /* Placeholder.swift in Sources */,
+				B7F559ABF7622040866557F0C6F422C3 /* RequestModifier.swift in Sources */,
+				70ECB3E5FED2F2D4F6DEFE366519C8AE /* Resource.swift in Sources */,
+				40B92FDF71624FC72B5AAF014FF827C5 /* String+MD5.swift in Sources */,
+				AB896E86184C7E4C1B132A6FD48C945F /* ThreadHelper.swift in Sources */,
+				1D182C2DB0E3A2FC683C635DA33254CD /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BF3340F0ED46056BF6E63E9D507C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20FB19E0BAD5AA19CD8D7CA5563B3F1 /* Pods-TreeMapBC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB8683FD4EC2E07E03B765DEC4CAA24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0741320F4029C077E6C87F24FBBE1921 /* CSV.swift in Sources */,
+				E4326632509DC119D9F20A4ADF1A5EDB /* Description.swift in Sources */,
+				5D7F9243C47FDAE33C85C4E38E3420F2 /* EnumeratedView.swift in Sources */,
+				AC3A9BBBC696D7F15419180CBE24DE2A /* NamedView.swift in Sources */,
+				154DA87F9CFE7544E755F5D133AD4E2E /* Parser.swift in Sources */,
+				837565F200CD03AD302FB1FEADDBD6DB /* ParsingState.swift in Sources */,
+				18E8699E19BF79678DE08904FCB53F2B /* String+Lines.swift in Sources */,
+				86AA9FC981C6AD5D03CA1D4BFD51FD1D /* SwiftCSV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A4674130C729FDDF40C4F3182B149E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0A6F1DF5EB7668BF9BC431A8D3209F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1738679941B4CCABB0AF5207EF2F37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ECEA1D55A08F82E73076E12B33B6E4 /* PMAlertAction.swift in Sources */,
+				15E9DBD72E63020472A188F090720281 /* PMAlertController-dummy.m in Sources */,
+				B70284140C6BC6FCDD865022BC5619DA /* PMAlertController.swift in Sources */,
+				52EBEB9C51467A8F3A82D067CE59B642 /* PMAlertController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22E753B07F0156B2C2186BD0DC94E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735674B48DD22F00E2BBBB9291115489 /* SideMenu-dummy.m in Sources */,
+				7389F893E9B1ECD81A61DFC4CE5798E6 /* SideMenuManager.swift in Sources */,
+				31CE630E5C5F4243C759C329C3D04B62 /* SideMenuTransition.swift in Sources */,
+				5CFFA4088CF87E34D428A868C68C9B2A /* UISideMenuNavigationController.swift in Sources */,
+				7209C32379ACDCF3937E1C77149E1E63 /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25C95F4708694F7E9610032ADBE00B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A224677A8EC5ADAF2555D323E423721 /* Pods-TreeMapBCTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18BC6517DB2F1FE05279DE57B5E65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E4F317355B2F7ED81DAC14C53FF029 /* CFAlertAction.swift in Sources */,
+				EAAF6E89476D2D619962C3F496B326B3 /* CFAlertActionSheetInteractiveTransition.swift in Sources */,
+				A43F1308D1FF06D3E6B93EC3068E93C6 /* CFAlertActionSheetTransitionGestureRecognizer.swift in Sources */,
+				E8F4A7D2FAE517E711A2776B6ED8D6E6 /* CFAlertActionTableViewCell.swift in Sources */,
+				63F676BD162BC71EF4C5AC25CEED5FE7 /* CFAlertBaseInteractiveTransition.swift in Sources */,
+				C6F3A2CB1E171122BD1AF9E114318D3E /* CFAlertBaseTransitionGestureRecognizer.swift in Sources */,
+				461D4B815655E66E255FBEFFF65FBFE0 /* CFAlertNotificationInteractiveTransition.swift in Sources */,
+				090E841F50675153B289C4D8501B8300 /* CFAlertNotificationTransitionGestureRecognizer.swift in Sources */,
+				CDC43E21A6B99558C46CCB4A7E06C0A2 /* CFAlertPopupTransition.swift in Sources */,
+				41473BF5990BA28C17CEBC5940668548 /* CFAlertTitleSubtitleTableViewCell.swift in Sources */,
+				9E03313FFA2ABA45DD7E57668EF8BDA9 /* CFAlertViewController-dummy.m in Sources */,
+				841D7E6DE79CF955672886E7B3F579A5 /* CFAlertViewController.swift in Sources */,
+				C7D79905255E40DF892829E3BA925BFE /* CFPushButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D1B584E292585D947ADAB9019D4B0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PMAlertController-PMAlertController";
+			target = E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */;
+			targetProxy = EDD12409CDAAC2C2B2B4D067B4037740 /* PBXContainerItemProxy */;
+		};
+		1E735F09A187A2B08E5010146DFB2EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = EB68284FBFB1E01C202824BAD32D3BE3 /* PBXContainerItemProxy */;
+		};
+		4F1BFA06669FE7BA40A746AE5353E0DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TreeMapBC";
+			target = 820869F62EED9AF0F38C732CBE5DE080 /* Pods-TreeMapBC */;
+			targetProxy = 310D10C5342F36E527EF9DA85B977113 /* PBXContainerItemProxy */;
+		};
+		53F26249191693721133B928614E0E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TreeMapBC";
+			target = 820869F62EED9AF0F38C732CBE5DE080 /* Pods-TreeMapBC */;
+			targetProxy = 28ADFEE12AB4068E5F7F2B58BBE179FF /* PBXContainerItemProxy */;
+		};
+		59E1E7CE52DB99B2673CF34B8EE8E8AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMAlertController;
+			target = AF447278DD2A27045784F5DA5241502E /* PMAlertController */;
+			targetProxy = 101E38FB5DC6B2F1BB5B59752EDC5B11 /* PBXContainerItemProxy */;
+		};
+		6478A22C39E98A716C5BAFDB59771C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapViewPlus;
+			target = 104F1045445BF4FD4CDBD09DBF9281B5 /* MapViewPlus */;
+			targetProxy = C9FE6BAB4276629816D9A797B2D44099 /* PBXContainerItemProxy */;
+		};
+		751D620CD8A0AF18956D81E9F3C441B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCSV;
+			target = B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */;
+			targetProxy = 1C4C0D1D7417BC591838D6388F52DFBF /* PBXContainerItemProxy */;
+		};
+		81BB12A8CD9C9F5FCC9944641CD4AEC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MapViewPlus-MapViewPlus";
+			target = AB3F557308DD735B3427E587B18B8A80 /* MapViewPlus-MapViewPlus */;
+			targetProxy = 57777BA42AFF0E0CF99A522813BB1F46 /* PBXContainerItemProxy */;
+		};
+		989D0A35E92AE41D006BE01128E3E90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CFAlertViewController;
+			target = 902E26B6547F079F6F96B6EA275C1C93 /* CFAlertViewController */;
+			targetProxy = 00E91D1C815D1EFD98B067E49E4F11FA /* PBXContainerItemProxy */;
+		};
+		D7062C64A643BC1B9538A738D027FE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = 3E4663CAE853179DFDD99E3B98A9D3E3 /* PBXContainerItemProxy */;
+		};
+		EF9B4E157CFFE338CC34E35CAD7F6F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = E37EED14FEBB8735C33C92D0078AE107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B6061CBE92C2B5E34FB9C1E32DCB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98BB00627B97F81F2CBA17F5E09C543 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D5D13547B536841F83E85752D597317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77E190B3E4E9ACFC03914EE2CA3B799 /* Pods-TreeMapBCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TreeMapBCUITests/Pods-TreeMapBCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TreeMapBCUITests/Pods-TreeMapBCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16CD7FA4A33EAF12C77C6CB8F41A6008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6706195F8F8E5166879BDDB931FC36BD /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		41C5E95332902399A6E7F9C4B2F6A27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE402958D54701757E3EC8D55402924A /* SwiftCSV.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSV/SwiftCSV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCSV/SwiftCSV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCSV;
+				PRODUCT_NAME = SwiftCSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4307BDC2B18F9720F8480462E77F011B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9380415964C2E55BF1956BFF7C3FA025 /* MapViewPlus.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapViewPlus/MapViewPlus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapViewPlus/MapViewPlus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapViewPlus/MapViewPlus.modulemap";
+				PRODUCT_MODULE_NAME = MapViewPlus;
+				PRODUCT_NAME = MapViewPlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		494B569D6EF4DEBCC2B163FEDA677575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98BB00627B97F81F2CBA17F5E09C543 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56CE6417BA612855295F2988C23F89D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752F877CD68BCFE2C3D0392D13A2A0CC /* CFAlertViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CFAlertViewController/CFAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CFAlertViewController/CFAlertViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CFAlertViewController/CFAlertViewController.modulemap";
+				PRODUCT_MODULE_NAME = CFAlertViewController;
+				PRODUCT_NAME = CFAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66C25EA090C835C653F073F897B4DACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3729D76FBC6A9390B009874AF7CD8CFE /* Pods-TreeMapBCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TreeMapBCUITests/Pods-TreeMapBCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TreeMapBCUITests/Pods-TreeMapBCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67B303970538A608271272F5B3EA5A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C20AB461F56C1227A56DAE0D34E2EE1 /* Pods-TreeMapBCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TreeMapBCTests/Pods-TreeMapBCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TreeMapBCTests/Pods-TreeMapBCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AB25D4AA887748C8CC5F850CB4A6824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752F877CD68BCFE2C3D0392D13A2A0CC /* CFAlertViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CFAlertViewController/CFAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CFAlertViewController/CFAlertViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CFAlertViewController/CFAlertViewController.modulemap";
+				PRODUCT_MODULE_NAME = CFAlertViewController;
+				PRODUCT_NAME = CFAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76C44792531FF414DE29E891CB05E80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9380415964C2E55BF1956BFF7C3FA025 /* MapViewPlus.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MapViewPlus";
+				INFOPLIST_FILE = "Target Support Files/MapViewPlus/ResourceBundle-MapViewPlus-MapViewPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MapViewPlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8B224677AFB8F0E8222FFA4DDC335979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9380415964C2E55BF1956BFF7C3FA025 /* MapViewPlus.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MapViewPlus";
+				INFOPLIST_FILE = "Target Support Files/MapViewPlus/ResourceBundle-MapViewPlus-MapViewPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MapViewPlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8E615A76B36CE8BFF6B3F5B63AFF1B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6706195F8F8E5166879BDDB931FC36BD /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A06727E642A04F2B7F5BEEF42312B8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D608C32BE88BDC069CB0AB6375565835 /* Pods-TreeMapBC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TreeMapBC/Pods-TreeMapBC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TreeMapBC/Pods-TreeMapBC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A37A6C9427E1EA62993A02BD40239B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF67EE9E122D3809E087FEBD96A0F85 /* Pods-TreeMapBC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TreeMapBC/Pods-TreeMapBC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TreeMapBC/Pods-TreeMapBC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B225F7BA87619DA20CCA7D274EEFC63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6706195F8F8E5166879BDDB931FC36BD /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/PMAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				PRODUCT_MODULE_NAME = PMAlertController;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B94DDC7A43D935CC32100D25C9C1465C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9380415964C2E55BF1956BFF7C3FA025 /* MapViewPlus.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapViewPlus/MapViewPlus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapViewPlus/MapViewPlus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapViewPlus/MapViewPlus.modulemap";
+				PRODUCT_MODULE_NAME = MapViewPlus;
+				PRODUCT_NAME = MapViewPlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF9FE5D574F6B5007C9B25892159EBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CABA50D84376CAAD7436058E91C7BE /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7FBC86D2742B61F827D8DE3D8399D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6706195F8F8E5166879BDDB931FC36BD /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/PMAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				PRODUCT_MODULE_NAME = PMAlertController;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D92696B03B4D9474BE35B26F2F1CCDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE402958D54701757E3EC8D55402924A /* SwiftCSV.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSV/SwiftCSV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCSV/SwiftCSV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCSV;
+				PRODUCT_NAME = SwiftCSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F417704C42C64B5D7C386726BCDCF3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CABA50D84376CAAD7436058E91C7BE /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6A3A632CE9A28595809AADC3E517173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D144497FDE38D4BDA6EFBED41131D16 /* Pods-TreeMapBCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TreeMapBCTests/Pods-TreeMapBCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TreeMapBCTests/Pods-TreeMapBCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A3EB3BD961E512C746D60678064D38 /* Build configuration list for PBXNativeTarget "MapViewPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94DDC7A43D935CC32100D25C9C1465C /* Debug */,
+				4307BDC2B18F9720F8480462E77F011B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54150FC7B504C75A3E5007530EE7B19D /* Build configuration list for PBXNativeTarget "MapViewPlus-MapViewPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B224677AFB8F0E8222FFA4DDC335979 /* Debug */,
+				76C44792531FF414DE29E891CB05E80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742591745514CA130CBCE58783B71D6D /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9FE5D574F6B5007C9B25892159EBA5 /* Debug */,
+				F417704C42C64B5D7C386726BCDCF3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7975DE731E61F915096C31E290E8AE5B /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B6061CBE92C2B5E34FB9C1E32DCB61 /* Debug */,
+				494B569D6EF4DEBCC2B163FEDA677575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFD21A6FA12F25203D9FD893CB9D99E /* Build configuration list for PBXNativeTarget "CFAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CE6417BA612855295F2988C23F89D9 /* Debug */,
+				6AB25D4AA887748C8CC5F850CB4A6824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91E629C125679C3E800351369EF257C /* Build configuration list for PBXNativeTarget "Pods-TreeMapBCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C25EA090C835C653F073F897B4DACA /* Debug */,
+				0D5D13547B536841F83E85752D597317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9932C350EF689236CBD826C9A59B7F1 /* Build configuration list for PBXNativeTarget "PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B225F7BA87619DA20CCA7D274EEFC63A /* Debug */,
+				D7FBC86D2742B61F827D8DE3D8399D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99C877775B879F92FE1F704E3D25837 /* Build configuration list for PBXNativeTarget "Pods-TreeMapBCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B303970538A608271272F5B3EA5A68 /* Debug */,
+				F6A3A632CE9A28595809AADC3E517173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAC9C15C29CAFCAB7D31EFD9781882A /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CD7FA4A33EAF12C77C6CB8F41A6008 /* Debug */,
+				8E615A76B36CE8BFF6B3F5B63AFF1B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCBB878FE817CF7378757F7C30D1616 /* Build configuration list for PBXNativeTarget "SwiftCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92696B03B4D9474BE35B26F2F1CCDF1 /* Debug */,
+				41C5E95332902399A6E7F9C4B2F6A27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB82B66E94F3092E85A9B4C5485ACB21 /* Build configuration list for PBXNativeTarget "Pods-TreeMapBC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37A6C9427E1EA62993A02BD40239B5E /* Debug */,
+				A06727E642A04F2B7F5BEEF42312B8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

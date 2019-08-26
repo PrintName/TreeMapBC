@@ -1,0 +1,36 @@
+PODS:
+  - CFAlertViewController (3.1)
+  - Kingfisher (4.6.4)
+  - MapViewPlus (0.1.2):
+    - Kingfisher (~> 4.6.3)
+  - PMAlertController (4.0.0)
+  - SideMenu (5.0.3)
+  - SwiftCSV (0.5.1)
+
+DEPENDENCIES:
+  - CFAlertViewController
+  - MapViewPlus
+  - PMAlertController
+  - SideMenu
+  - SwiftCSV
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CFAlertViewController
+    - Kingfisher
+    - MapViewPlus
+    - PMAlertController
+    - SideMenu
+    - SwiftCSV
+
+SPEC CHECKSUMS:
+  CFAlertViewController: a27cf0512d0fa9ef6a3b966862039c295fb0ef69
+  Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
+  MapViewPlus: 4e448279f98297f007cb16904a244a525b3c9d5e
+  PMAlertController: 5fad2da8b9eb687134ed50c3462fed12c3afe976
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SwiftCSV: bc6269088ad2927f93750658c85b4a09f27529a9
+
+PODFILE CHECKSUM: 9ae80401ae3351794a653c3069564bc61dba2241
+
+COCOAPODS: 1.7.3
