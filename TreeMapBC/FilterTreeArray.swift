@@ -15,6 +15,7 @@ func filterArray(originalTreeArray: [Tree], filterData: [String:String]) -> [Tre
         return originalTreeArray
     }
     
+    
     var arrayOfSets = [Set<Tree>]()
     
     if !filterData["commonNameText"]!.isEmpty {
@@ -81,17 +82,17 @@ func filterArray(originalTreeArray: [Tree], filterData: [String:String]) -> [Tre
         waterIntercepted = waterIntercepted + Double(tree.detail[12])!
     }
     
-    filteredImpact.data.append(String(Int(co2Offset).commas))
-    filteredImpact.data.append(String(Int(distanceDriven).commas))
-    filteredImpact.data.append(String(Int(Double(carbonStorage)).commas))
-    filteredImpact.data.append(String(Int(pollutionRemoved).commas))
-    filteredImpact.data.append(String(Int(waterIntercepted).commas))
+    FilteredImpact.data.append(String(Int(co2Offset).commas))
+    FilteredImpact.data.append(String(Int(distanceDriven).commas))
+    FilteredImpact.data.append(String(Int(Double(carbonStorage)).commas))
+    FilteredImpact.data.append(String(Int(pollutionRemoved).commas))
+    FilteredImpact.data.append(String(Int(waterIntercepted).commas))
     
     return filteredTreeArray
     
 }
 
-class filteredImpact {
+class FilteredImpact {
     static var data: [String] = []
 }
 

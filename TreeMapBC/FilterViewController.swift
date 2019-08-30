@@ -104,7 +104,7 @@ class FilterViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func filter(_ sender: Any) {
         
-        filteredImpact.data=[]
+        FilteredImpact.data=[]
         
         if self.delegate != nil {
             var filterData : [String:String] = [:]
@@ -144,7 +144,7 @@ class FilterViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func reset(_ sender: Any) {
         
-        filteredImpact.data=[]
+        FilteredImpact.data=[]
         
         var filterData : [String:String] = [:]
         filterData["commonNameText"] = ""

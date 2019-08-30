@@ -13,7 +13,6 @@ import CFAlertViewController
 
 class ViewController: UIViewController, dataProtocal {
     
-    // White status bar
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
@@ -23,19 +22,15 @@ class ViewController: UIViewController, dataProtocal {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Set up map
         mapView.mapType = MKMapType.satellite
         mapView.delegate = self
       
-        // Set initial map view
         let initialLocation = CLLocation(latitude: 42.3361, longitude: -71.1677)
         let initialRegion = MKCoordinateRegion(center: initialLocation.coordinate, span: MKCoordinateSpan.init(latitudeDelta: 0.01, longitudeDelta: 0.01))
         mapView.setRegion(initialRegion, animated: true)
          
-        // Set up markers
         mapView.register(TreeMarkerView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
 
-        // Populate map with Tree Array
         mapView.addAnnotations(treeData.array)
       
          // Button to toggle user tracking behavior
@@ -87,11 +82,9 @@ class ViewController: UIViewController, dataProtocal {
    
     var oldFilterData : [String:String] = [:]
    
-    // Delegate
     func sendData(filterData: [String:String]) {
       
         oldFilterData = filterData
-        // Remove markers
         mapView.removeAnnotations(mapView.annotations)
         // Repopulate map with filtered tree array
         let filteredTreeArray = filterArray(originalTreeArray: treeData.array, filterData: filterData)
@@ -129,7 +122,6 @@ class ViewController: UIViewController, dataProtocal {
       
     }
     
-    // Segue prepare
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "filterSegue" {
             let DestViewController = segue.destination as! UINavigationController
@@ -140,12 +132,12 @@ class ViewController: UIViewController, dataProtocal {
     }
    
    @IBAction func impactButton(_ sender: Any) {
-      if filteredImpact.data.count == 0 {
+      if FilteredImpact.data.count == 0 {
          let alertController = CFAlertViewController(title: "Total Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "CO2 Offset: 111,349 lb / 275,589 mi driven \n Total Carbon Stored: 5,141,018 lb \n Air Pollution Removed: 39,785 oz \n Rainfall Runoff Intercepted: 521,983 gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
          present(alertController, animated: true, completion: nil)
       }
       else {
-         let alertController = CFAlertViewController(title: "Filtered Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "CO2 Offset: \(filteredImpact.data[0]) lb / \(filteredImpact.data[1]) mi driven \n Total Carbon Stored: \(filteredImpact.data[2]) lb \n Air Pollution Removed: \(filteredImpact.data[3]) oz \n Rainfall Runoff Intercepted: \(filteredImpact.data[4]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
+         let alertController = CFAlertViewController(title: "Filtered Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "CO2 Offset: \(FilteredImpact.data[0]) lb / \(FilteredImpact.data[1]) mi driven \n Total Carbon Stored: \(FilteredImpact.data[2]) lb \n Air Pollution Removed: \(FilteredImpact.data[3]) oz \n Rainfall Runoff Intercepted: \(FilteredImpact.data[4]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
          present(alertController, animated: true, completion: nil)
       }
     }
