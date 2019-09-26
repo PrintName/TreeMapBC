@@ -82,6 +82,9 @@ class ViewController: UIViewController, dataProtocal {
    
     var oldFilterData : [String:String] = [:]
    
+    let defaultImpactData = ["111,349", "275,589", "5,141,018", "39,785", "521,983"]
+    var filteredImpactData : [String] = []
+   
     func sendData(filterData: [String:String]) {
       
         oldFilterData = filterData
@@ -120,6 +123,36 @@ class ViewController: UIViewController, dataProtocal {
            medium.setTitleColor(UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), for: .normal)
         }
       
+      // Filtered environmental impact
+      if !filterData.values.isEmpty {
+         
+         var co2Offset = 0.0
+         var distanceDriven = 0.0
+         var carbonStorage = 0.0
+         var pollutionRemoved = 0.0
+         var waterIntercepted = 0.0
+         
+         for tree in filteredTreeArray {
+            co2Offset = co2Offset + Double(tree.detail[8])!
+            distanceDriven = distanceDriven + Double(tree.detail[9])!
+            carbonStorage = carbonStorage + Double(tree.detail[10])!
+            pollutionRemoved = pollutionRemoved + Double(tree.detail[11])!
+            waterIntercepted = waterIntercepted + Double(tree.detail[12])!
+         }
+         
+         filteredImpactData = []
+         filteredImpactData.append(String(Int(co2Offset).commas))
+         filteredImpactData.append(String(Int(distanceDriven).commas))
+         filteredImpactData.append(String(Int(Double(carbonStorage)).commas))
+         filteredImpactData.append(String(Int(pollutionRemoved).commas))
+         filteredImpactData.append(String(Int(waterIntercepted).commas))
+      
+      }
+      
+      else {
+         filteredImpactData = []
+      }
+      
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -132,12 +165,12 @@ class ViewController: UIViewController, dataProtocal {
     }
    
    @IBAction func impactButton(_ sender: Any) {
-      if FilteredImpact.data.count == 0 {
+      if filteredImpactData.isEmpty {
          let alertController = CFAlertViewController(title: "Total Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "CO2 Offset: 111,349 lb / 275,589 mi driven \n Total Carbon Stored: 5,141,018 lb \n Air Pollution Removed: 39,785 oz \n Rainfall Runoff Intercepted: 521,983 gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
          present(alertController, animated: true, completion: nil)
       }
       else {
-         let alertController = CFAlertViewController(title: "Filtered Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "CO2 Offset: \(FilteredImpact.data[0]) lb / \(FilteredImpact.data[1]) mi driven \n Total Carbon Stored: \(FilteredImpact.data[2]) lb \n Air Pollution Removed: \(FilteredImpact.data[3]) oz \n Rainfall Runoff Intercepted: \(FilteredImpact.data[4]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
+         let alertController = CFAlertViewController(title: "Filtered Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "CO2 Offset: \(filteredImpactData[0]) lb / \(filteredImpactData[1]) mi driven \n Total Carbon Stored: \(filteredImpactData[2]) lb \n Air Pollution Removed: \(filteredImpactData[3]) oz \n Rainfall Runoff Intercepted: \(filteredImpactData[4]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
          present(alertController, animated: true, completion: nil)
       }
     }
@@ -244,4 +277,19 @@ extension ViewController: MKMapViewDelegate {
          return UIColor(cgColor: color)
       }
    }
+   
+}
+
+extension Int {
+   
+   private static var addCommas: NumberFormatter = {
+      let numberFormatter = NumberFormatter()
+      numberFormatter.numberStyle = .decimal
+      return numberFormatter
+   }()
+   
+   internal var commas: String {
+      return Int.addCommas.string(from: NSNumber(value: self)) ?? ""
+   }
+   
 }

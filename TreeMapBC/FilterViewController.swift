@@ -103,9 +103,7 @@ class FilterViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func filter(_ sender: Any) {
-        
-        FilteredImpact.data=[]
-        
+                
         if self.delegate != nil {
             var filterData : [String:String] = [:]
             
@@ -144,8 +142,6 @@ class FilterViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func reset(_ sender: Any) {
         
-        FilteredImpact.data=[]
-        
         var filterData : [String:String] = [:]
         filterData["commonNameText"] = ""
         filterData["botanicalNameText"] = ""
@@ -160,6 +156,7 @@ class FilterViewController: UIViewController, UITextFieldDelegate {
         
         self.delegate?.sendData(filterData: filterData)
         dismiss(animated: true, completion: nil)
+        
     }
     
 }

@@ -68,43 +68,6 @@ func filterArray(originalTreeArray: [Tree], filterData: [String:String]) -> [Tre
     
     let filteredTreeArray = Array(filteredTreeSet)
     
-    var co2Offset = 0.0
-    var distanceDriven = 0.0
-    var carbonStorage = 0.0
-    var pollutionRemoved = 0.0
-    var waterIntercepted = 0.0
-
-    for tree in filteredTreeArray {
-        co2Offset = co2Offset + Double(tree.detail[8])!
-        distanceDriven = distanceDriven + Double(tree.detail[9])!
-        carbonStorage = carbonStorage + Double(tree.detail[10])!
-        pollutionRemoved = pollutionRemoved + Double(tree.detail[11])!
-        waterIntercepted = waterIntercepted + Double(tree.detail[12])!
-    }
-    
-    FilteredImpact.data.append(String(Int(co2Offset).commas))
-    FilteredImpact.data.append(String(Int(distanceDriven).commas))
-    FilteredImpact.data.append(String(Int(Double(carbonStorage)).commas))
-    FilteredImpact.data.append(String(Int(pollutionRemoved).commas))
-    FilteredImpact.data.append(String(Int(waterIntercepted).commas))
-    
     return filteredTreeArray
     
-}
-
-class FilteredImpact {
-    static var data: [String] = []
-}
-
-extension Int {
-    
-    private static var addCommas: NumberFormatter = {
-        let numberFormatter = NumberFormatter()
-        numberFormatter.numberStyle = .decimal
-        return numberFormatter
-    }()
-    
-    internal var commas: String {
-        return Int.addCommas.string(from: NSNumber(value: self)) ?? ""
-    }
 }
