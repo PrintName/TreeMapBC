@@ -21,7 +21,7 @@ class ViewController: UIViewController, dataProtocal {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-            
+      
         mapView.mapType = MKMapType.satellite
         mapView.delegate = self
       
@@ -126,7 +126,6 @@ class ViewController: UIViewController, dataProtocal {
       // Filtered environmental impact
       if !filterData.values.isEmpty {
          
-         var treeCount = 0
          var co2Offset = 0.0
          var distanceDriven = 0.0
          var carbonStorage = 0.0
@@ -134,7 +133,6 @@ class ViewController: UIViewController, dataProtocal {
          var waterIntercepted = 0.0
          
          for tree in filteredTreeArray {
-            treeCount += 1
             co2Offset = co2Offset + Double(tree.detail[8])!
             distanceDriven = distanceDriven + Double(tree.detail[9])!
             carbonStorage = carbonStorage + Double(tree.detail[10])!
@@ -143,7 +141,7 @@ class ViewController: UIViewController, dataProtocal {
          }
          
          filteredImpactData = []
-         treeCount = filteredTreeArray.count
+         let treeCount = filteredTreeArray.count
          filteredImpactData.append(String(treeCount.commas))
          filteredImpactData.append(String(Int(co2Offset).commas))
          filteredImpactData.append(String(Int(distanceDriven).commas))
