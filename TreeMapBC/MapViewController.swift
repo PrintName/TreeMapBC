@@ -21,7 +21,7 @@ class ViewController: UIViewController, dataProtocal {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+            
         mapView.mapType = MKMapType.satellite
         mapView.delegate = self
       
@@ -126,6 +126,7 @@ class ViewController: UIViewController, dataProtocal {
       // Filtered environmental impact
       if !filterData.values.isEmpty {
          
+         var treeCount = 0
          var co2Offset = 0.0
          var distanceDriven = 0.0
          var carbonStorage = 0.0
@@ -133,6 +134,7 @@ class ViewController: UIViewController, dataProtocal {
          var waterIntercepted = 0.0
          
          for tree in filteredTreeArray {
+            treeCount += 1
             co2Offset = co2Offset + Double(tree.detail[8])!
             distanceDriven = distanceDriven + Double(tree.detail[9])!
             carbonStorage = carbonStorage + Double(tree.detail[10])!
@@ -141,6 +143,8 @@ class ViewController: UIViewController, dataProtocal {
          }
          
          filteredImpactData = []
+         treeCount = filteredTreeArray.count
+         filteredImpactData.append(String(treeCount.commas))
          filteredImpactData.append(String(Int(co2Offset).commas))
          filteredImpactData.append(String(Int(distanceDriven).commas))
          filteredImpactData.append(String(Int(Double(carbonStorage)).commas))
@@ -166,11 +170,11 @@ class ViewController: UIViewController, dataProtocal {
    
    @IBAction func impactButton(_ sender: Any) {
       if filteredImpactData.isEmpty {
-         let alertController = CFAlertViewController(title: "Total Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "CO2 Offset: 111,349 lb / 275,589 mi driven \n Total Carbon Stored: 5,141,018 lb \n Air Pollution Removed: 39,785 oz \n Rainfall Runoff Intercepted: 521,983 gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
+         let alertController = CFAlertViewController(title: "Total Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "Number of Trees: 4073 \n CO2 Offset: 111,349 lb / 275,589 mi driven \n Total Carbon Stored: 5,141,018 lb \n Air Pollution Removed: 39,785 oz \n Rainfall Runoff Intercepted: 521,983 gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
          present(alertController, animated: true, completion: nil)
       }
       else {
-         let alertController = CFAlertViewController(title: "Filtered Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "CO2 Offset: \(filteredImpactData[0]) lb / \(filteredImpactData[1]) mi driven \n Total Carbon Stored: \(filteredImpactData[2]) lb \n Air Pollution Removed: \(filteredImpactData[3]) oz \n Rainfall Runoff Intercepted: \(filteredImpactData[4]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
+         let alertController = CFAlertViewController(title: "Filtered Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "Number of Trees: \(filteredImpactData[0]) \n CO2 Offset: \(filteredImpactData[1]) lb / \(filteredImpactData[2]) mi driven \n Total Carbon Stored: \(filteredImpactData[3]) lb \n Air Pollution Removed: \(filteredImpactData[4]) oz \n Rainfall Runoff Intercepted: \(filteredImpactData[5]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
          present(alertController, animated: true, completion: nil)
       }
     }
