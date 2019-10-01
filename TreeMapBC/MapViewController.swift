@@ -82,7 +82,6 @@ class ViewController: UIViewController, dataProtocal {
    
     var oldFilterData : [String:String] = [:]
    
-    let defaultImpactData = ["111,349", "275,589", "5,141,018", "39,785", "521,983"]
     var filteredImpactData : [String] = []
    
     func sendData(filterData: [String:String]) {
@@ -152,9 +151,11 @@ class ViewController: UIViewController, dataProtocal {
       }
       
       else {
+         
          filteredImpactData = []
+         
       }
-      
+
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -166,9 +167,40 @@ class ViewController: UIViewController, dataProtocal {
         }
     }
    
+   var defaultImpactData : [String] = []
+   
+   func setupDefaultImpactData() {
+      
+      var co2Offset = 0.0
+      var distanceDriven = 0.0
+      var carbonStorage = 0.0
+      var pollutionRemoved = 0.0
+      var waterIntercepted = 0.0
+      
+      for tree in treeData.array {
+         co2Offset = co2Offset + Double(tree.detail[8])!
+         distanceDriven = distanceDriven + Double(tree.detail[9])!
+         carbonStorage = carbonStorage + Double(tree.detail[10])!
+         pollutionRemoved = pollutionRemoved + Double(tree.detail[11])!
+         waterIntercepted = waterIntercepted + Double(tree.detail[12])!
+      }
+      
+      let treeCount = treeData.array.count
+      defaultImpactData.append(String(treeCount.commas))
+      defaultImpactData.append(String(Int(co2Offset).commas))
+      defaultImpactData.append(String(Int(distanceDriven).commas))
+      defaultImpactData.append(String(Int(Double(carbonStorage)).commas))
+      defaultImpactData.append(String(Int(pollutionRemoved).commas))
+      defaultImpactData.append(String(Int(waterIntercepted).commas))
+   
+   }
+   
    @IBAction func impactButton(_ sender: Any) {
       if filteredImpactData.isEmpty {
-         let alertController = CFAlertViewController(title: "Total Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "Number of Trees: 4073 \n CO2 Offset: 111,349 lb / 275,589 mi driven \n Total Carbon Stored: 5,141,018 lb \n Air Pollution Removed: 39,785 oz \n Rainfall Runoff Intercepted: 521,983 gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
+         if defaultImpactData.isEmpty {
+            setupDefaultImpactData()
+         }
+         let alertController = CFAlertViewController(title: "Total Annual Impact", titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "Number of Trees: \(defaultImpactData[0]) \n CO2 Offset: \(defaultImpactData[1]) lb / \(defaultImpactData[2]) mi driven \n Total Carbon Stored: \(defaultImpactData[3]) lb \n Air Pollution Removed: \(defaultImpactData[4]) oz \n Rainfall Runoff Intercepted: \(defaultImpactData[5]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
          present(alertController, animated: true, completion: nil)
       }
       else {
