@@ -40,9 +40,9 @@ func loadTreeArray() -> [Tree]{
     var treeArray = [Tree]()
     for treeData in treeDataArray {
         if treeData[7] == "Living" {
-            let originalName = treeData[3]
-            let fixedName = nameDictionary.dict[originalName]
-            let tree = Tree(title: fixedName!, detail: treeData, coordinate: CLLocationCoordinate2D(latitude: Double(treeData[1])!, longitude: Double(treeData[2])!))
+            let originalTreeName = treeData[3]
+            let treeName = nameDictionary.dict[originalTreeName] ?? originalTreeName
+            let tree = Tree(title: treeName, detail: treeData, coordinate: CLLocationCoordinate2D(latitude: Double(treeData[1])!, longitude: Double(treeData[2])!))
             treeArray.append(tree)
         }
     }

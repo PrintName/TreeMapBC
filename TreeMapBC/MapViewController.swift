@@ -238,7 +238,7 @@ extension ViewController: MKMapViewDelegate {
         let title = marker.title!
         let detail = marker.detail
       
-      let alertController = CFAlertViewController(title: title, titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "\(infoDictionary.dict[detail[3]]!) \n\n This Tree's Annual Impact \n CO2 Offset: \(detail[8]) lb / \(detail[9]) mi driven \n Total Carbon Stored: \(Int(Double(detail[10])!).commas) lb \n Air Pollution Removed: \(detail[11]) oz \n Rainfall Runoff Intercepted: \(detail[12]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
+      let alertController = CFAlertViewController(title: title, titleColor: UIColor(red: 0.0/255.0, green: 52.0/255.0, blue: 9.0/255.0, alpha: 1.0), message: "\(infoDictionary.dict[detail[3]] ?? "") \n\n This Tree's Annual Impact \n CO2 Offset: \(detail[8]) lb / \(detail[9]) mi driven \n Total Carbon Stored: \(Int(Double(detail[10])!).commas) lb \n Air Pollution Removed: \(detail[11]) oz \n Rainfall Runoff Intercepted: \(detail[12]) gal", messageColor: UIColor.black, textAlignment: .center, preferredStyle: CFAlertViewController.CFAlertControllerStyle.alert, headerView: nil, footerView: nil, didDismissAlertHandler: nil)
         present(alertController, animated: true, completion: nil)
     }
    
