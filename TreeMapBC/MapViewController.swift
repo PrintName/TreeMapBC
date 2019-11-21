@@ -47,6 +47,20 @@ class ViewController: UIViewController, dataProtocal {
       
     }
    
+   override func viewDidAppear(_ animated: Bool) {
+      super.viewDidAppear(animated)
+      
+      let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
+      if !launchedBefore {
+         // Show tutorial if never launched before
+         performSegue(withIdentifier: "helpSegue", sender: nil)
+         UserDefaults.standard.set(true, forKey: "launchedBefore")
+      }
+      
+      checkLocationAuthorizationStatus()
+      
+   }
+   
     // Show user location
     let userLocationManager = CLLocationManager()
     func checkLocationAuthorizationStatus() {
@@ -61,24 +75,41 @@ class ViewController: UIViewController, dataProtocal {
         }
     }
    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-      
-        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
-        if !launchedBefore {
-           // Show tutorial if never launched before
-           performSegue(withIdentifier: "helpSegue", sender: nil)
-           UserDefaults.standard.set(true, forKey: "launchedBefore")
-        }
-      
-        checkLocationAuthorizationStatus()
-      
-    }
    
     // Set up saved annotations for map height based removal
     var smallAnnotations = treeData.array.filter { Int($0.detail[6])! <= 10 }
     var mediumAnnotations = treeData.array.filter { Int($0.detail[6])! > 10 && Int($0.detail[6])! <= 30 }
     var textFiltered = false
+   
+   
+   var defaultImpactData : [String] = []
+   
+   func setupDefaultImpactData() {
+      
+      var co2Offset = 0.0
+      var distanceDriven = 0.0
+      var carbonStorage = 0.0
+      var pollutionRemoved = 0.0
+      var waterIntercepted = 0.0
+      
+      for tree in treeData.array {
+         co2Offset = co2Offset + Double(tree.detail[8])!
+         distanceDriven = distanceDriven + Double(tree.detail[9])!
+         carbonStorage = carbonStorage + Double(tree.detail[10])!
+         pollutionRemoved = pollutionRemoved + Double(tree.detail[11])!
+         waterIntercepted = waterIntercepted + Double(tree.detail[12])!
+      }
+      
+      let treeCount = treeData.array.count
+      defaultImpactData.append(String(treeCount.commas))
+      defaultImpactData.append(String(Int(co2Offset).commas))
+      defaultImpactData.append(String(Int(distanceDriven).commas))
+      defaultImpactData.append(String(Int(Double(carbonStorage)).commas))
+      defaultImpactData.append(String(Int(pollutionRemoved).commas))
+      defaultImpactData.append(String(Int(waterIntercepted).commas))
+      
+   }
+   
    
     var oldFilterData : [String:String] = [:]
    
@@ -167,33 +198,6 @@ class ViewController: UIViewController, dataProtocal {
         }
     }
    
-   var defaultImpactData : [String] = []
-   
-   func setupDefaultImpactData() {
-      
-      var co2Offset = 0.0
-      var distanceDriven = 0.0
-      var carbonStorage = 0.0
-      var pollutionRemoved = 0.0
-      var waterIntercepted = 0.0
-      
-      for tree in treeData.array {
-         co2Offset = co2Offset + Double(tree.detail[8])!
-         distanceDriven = distanceDriven + Double(tree.detail[9])!
-         carbonStorage = carbonStorage + Double(tree.detail[10])!
-         pollutionRemoved = pollutionRemoved + Double(tree.detail[11])!
-         waterIntercepted = waterIntercepted + Double(tree.detail[12])!
-      }
-      
-      let treeCount = treeData.array.count
-      defaultImpactData.append(String(treeCount.commas))
-      defaultImpactData.append(String(Int(co2Offset).commas))
-      defaultImpactData.append(String(Int(distanceDriven).commas))
-      defaultImpactData.append(String(Int(Double(carbonStorage)).commas))
-      defaultImpactData.append(String(Int(pollutionRemoved).commas))
-      defaultImpactData.append(String(Int(waterIntercepted).commas))
-   
-   }
    
    @IBAction func impactButton(_ sender: Any) {
       if filteredImpactData.isEmpty {
